@@ -2,7 +2,7 @@
 
 [![Slack](https://img.shields.io/badge/slack-join-blue.svg)](https://fortishield.github.io/community/join-us-on-slack/)
 [![Mailing list](https://img.shields.io/badge/email-join-blue.svg)](https://groups.google.com/forum/#!forum/fortishield)
-[![Documentation](https://img.shields.io/badge/docs-view-green.svg)](https://documentation.fortishield.github.io/)
+[![Documentation](https://img.shields.io/badge/docs-view-green.svg)](https://fortishield.github.io/documentation/)
 [![Website](https://img.shields.io/badge/web-view-green.svg)](https://fortishield.github.io/)
 
 Fortishield is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance.
@@ -11,8 +11,8 @@ The online documentation for this project is available in this repository. Membe
 
 ## Online documentation
 
-- [Current version (4.x)](https://documentation.fortishield.github.io/current/)
-- [Legacy version (2.1)](https://documentation.fortishield.github.io/2.1/)
+- [Current version (4.x)](https://fortishield.github.io/documentation/current/)
+- [Legacy version (2.1)](https://fortishield.github.io/documentation/2.1/)
 
 ## Contribute to this project
 

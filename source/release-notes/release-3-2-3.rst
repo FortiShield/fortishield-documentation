@@ -46,7 +46,7 @@ These are the most relevant changes in the Fortishield core:
 Fortishield app for Splunk
 --------------------
 
-New section describing the installation process for the `Fortishield app for Splunk <https://documentation.fortishield.github.io/3.13/installation-guide/installing-splunk/index.html>`_.
+New section describing the installation process for the `Fortishield app for Splunk <https://fortishield.github.io/documentation/3.13/installation-guide/installing-splunk/index.html>`_.
 
 Fortishield app for Kibana
 --------------------

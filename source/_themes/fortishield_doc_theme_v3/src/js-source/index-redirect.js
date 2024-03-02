@@ -5,7 +5,7 @@ switch (document.location.protocol) {
     url = document.location.protocol + '//' + document.location.host;
     break;
   default:
-    url = 'https://documentation.fortishield.github.io';
+    url = 'https://fortishield.github.io/documentation';
 }
 
 document.location = url + '/' + DOCUMENTATION_OPTIONS.VERSION + '/getting-started/index.html';

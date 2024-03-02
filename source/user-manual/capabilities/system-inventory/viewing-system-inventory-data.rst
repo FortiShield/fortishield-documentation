@@ -31,7 +31,7 @@ The Syscollector module runs periodic scans and sends the updated data in JSON f
 Using the Fortishield API
 ^^^^^^^^^^^^^^^^^^^
 
-You can query the Fortishield inventory data using the `Fortishield API <https://documentation.fortishield.github.io/current/user-manual/api/reference.html#tag/Syscollector>`_, which retrieves nested data in JSON format. You can use the Fortishield API GUI on the dashboard or a command line tool like ``cURL`` to query the inventory database. 
+You can query the Fortishield inventory data using the `Fortishield API <https://fortishield.github.io/documentation/current/user-manual/api/reference.html#tag/Syscollector>`_, which retrieves nested data in JSON format. You can use the Fortishield API GUI on the dashboard or a command line tool like ``cURL`` to query the inventory database. 
 
 Fortishield API GUI
 ~~~~~~~~~~~~~
@@ -104,7 +104,7 @@ Follow the steps below to query the endpoint database from the command line usin
 
       curl -k -X GET "https://<FORTISHIELD_SERVER_IP>:55000/syscollector/010/packages?pretty=true" -H  "Authorization: Bearer $TOKEN"
 
-   The other inventory properties are ``hardware``, ``hotfixes``, ``netaddr``, ``netiface``, ``netproto``, ``os``, ``ports``, and ``processes``. These all correspond to the tables in the :doc:`inventory database </user-manual/capabilities/system-inventory/available-inventory-fields>`. You can learn more about these options in our `API documentation <https://documentation.fortishield.github.io/current/user-manual/api/reference.html#tag/Syscollector>`_.
+   The other inventory properties are ``hardware``, ``hotfixes``, ``netaddr``, ``netiface``, ``netproto``, ``os``, ``ports``, and ``processes``. These all correspond to the tables in the :doc:`inventory database </user-manual/capabilities/system-inventory/available-inventory-fields>`. You can learn more about these options in our `API documentation <https://fortishield.github.io/documentation/current/user-manual/api/reference.html#tag/Syscollector>`_.
 
    .. code-block:: console
       :class: output

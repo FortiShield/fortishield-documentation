@@ -31,7 +31,7 @@ You can also generate property-specific reports for a monitored endpoint. For ex
    :align: center
    :width: 80%
 
-The inventory data collected can be queried using the `Fortishield API <https://documentation.fortishield.github.io/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#tag/Syscollector>`__, which retrieves nested data in JSON format. For example, you can query the package inventory to check for the ``fortishield-agent`` package on a monitored endpoint using the **Server management** > **Dev Tools** module on the Fortishield dashboard. Command line tools like :ref:`cURL <inventory_fortishield_api_curl>` can also be used to query the inventory database.
+The inventory data collected can be queried using the `Fortishield API <https://fortishield.github.io/documentation/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#tag/Syscollector>`__, which retrieves nested data in JSON format. For example, you can query the package inventory to check for the ``fortishield-agent`` package on a monitored endpoint using the **Server management** > **Dev Tools** module on the Fortishield dashboard. Command line tools like :ref:`cURL <inventory_fortishield_api_curl>` can also be used to query the inventory database.
 
 .. thumbnail:: /images/getting-started/use-cases/it-hygiene/inventory-querying-api.png
    :title: Querying the package inventory using the Dev Tools
