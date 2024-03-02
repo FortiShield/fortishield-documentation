@@ -1,5 +1,3 @@
-build
-_build
 .vscode
 .DS_Store
 test
@@ -24,3 +22,4 @@ source/_themes/fortishield_doc_theme_v3/static/js/min/*.js.map
 source/_themes/fortishield_doc_theme_v3/static/js/min/redirects.min.js
 source/_static/css/*.min.css
 source/_static/js/*.min.js
+.venv
