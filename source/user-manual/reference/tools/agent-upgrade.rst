@@ -30,7 +30,7 @@ The agent_upgrade program allows you to list outdated agents and upgrade them.
 +--------------------------------------------+--------------------------------------------------------------------------------+
 | -v VERSION, --version VERSION              | Version to upgrade. [Default: latest Fortishield version]                            |
 +--------------------------------------------+--------------------------------------------------------------------------------+
-| -r REPOSITORY, --repository REPOSITORY     | Specify a repository URL. [Default: packages.fortishield.com/4.x/wpk/]               |
+| -r REPOSITORY, --repository REPOSITORY     | Specify a repository URL. [Default: fortishield.github.io/packages/4.x/wpk/]               |
 +--------------------------------------------+--------------------------------------------------------------------------------+
 | -f FILE, --file FILE                       | Custom WPK filename.                                                           |
 +--------------------------------------------+--------------------------------------------------------------------------------+

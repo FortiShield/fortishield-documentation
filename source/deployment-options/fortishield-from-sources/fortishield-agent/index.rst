@@ -34,13 +34,13 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                                 # yum update -y
                                 # yum install make gcc gcc-c++ policycoreutils-python automake autoconf libtool centos-release-scl openssl-devel wget bzip2 procps -y
-                                # curl -OL http://packages.fortishield.com/utils/gcc/gcc-9.4.0.tar.gz && tar xzf gcc-9.4.0.tar.gz  && cd gcc-9.4.0/ && ./contrib/download_prerequisites && ./configure --enable-languages=c,c++ --prefix=/usr --disable-multilib --disable-libsanitizer && make -j$(nproc) && make install && ln -fs /bin/g++ /usr/bin/c++ && ln -fs /bin/gcc /usr/bin/cc && cd .. && rm -rf gcc-*
+                                # curl -OL http://fortishield.github.io/packages/utils/gcc/gcc-9.4.0.tar.gz && tar xzf gcc-9.4.0.tar.gz  && cd gcc-9.4.0/ && ./contrib/download_prerequisites && ./configure --enable-languages=c,c++ --prefix=/usr --disable-multilib --disable-libsanitizer && make -j$(nproc) && make install && ln -fs /bin/g++ /usr/bin/c++ && ln -fs /bin/gcc /usr/bin/cc && cd .. && rm -rf gcc-*
 
                             CMake 3.18 installation
 
                             .. code-block:: console
 
-                                # curl -OL https://packages.fortishield.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz
+                                # curl -OL https://fortishield.github.io/packages/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz
                                 # cd cmake-3.18.3 && ./bootstrap --no-system-curl
                                 # make -j$(nproc) && make install
                                 # cd .. && rm -rf cmake-*
@@ -57,7 +57,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                             .. code-block:: console
 
-                                # curl -OL https://packages.fortishield.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
+                                # curl -OL https://fortishield.github.io/packages/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
                                 # cd .. && rm -rf cmake-*
                                 # export PATH=/usr/local/bin:$PATH
 
@@ -71,7 +71,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                     .. code-block:: console
 
-                        # curl -OL https://packages.fortishield.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
+                        # curl -OL https://fortishield.github.io/packages/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
                         # cd .. && rm -rf cmake-*
 
                 .. group-tab:: ZYpp
@@ -84,7 +84,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                     .. code-block:: console
 
-                        # curl -OL https://packages.fortishield.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
+                        # curl -OL https://fortishield.github.io/packages/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
                         # cd .. && rm -rf cmake-*
 
                     .. note::
@@ -419,7 +419,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                 .. code-block:: console
 
-                    # rpm -Uvh --nodeps http://packages-dev.fortishield.com/deps/aix/wget-1.19-1.aix6.1.ppc.rpm
+                    # rpm -Uvh --nodeps http://packages-dev.fortishield.github.io/deps/aix/wget-1.19-1.aix6.1.ppc.rpm
 
             #.  Download the following script.
 
@@ -435,8 +435,8 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
             
                 .. code-block:: console
                 
-                    # rpm -Uvh --nodeps http://packages-dev.fortishield.com/deps/aix/bash-4.4-4.aix6.1.ppc.rpm
-                    # rpm -Uvh --nodeps http://packages-dev.fortishield.com/deps/aix/libiconv-1.14-22.aix6.1.ppc.rpm
+                    # rpm -Uvh --nodeps http://packages-dev.fortishield.github.io/deps/aix/bash-4.4-4.aix6.1.ppc.rpm
+                    # rpm -Uvh --nodeps http://packages-dev.fortishield.github.io/deps/aix/libiconv-1.14-22.aix6.1.ppc.rpm
 
             #.  Install the necessary dependencies using the script.
 
@@ -468,7 +468,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
                 # cd src
                 # gmake clean-deps
                 # gmake clean
-                # gmake deps TARGET=agent RESOURCES_URL=http://packages.fortishield.com/deps/27
+                # gmake deps TARGET=agent RESOURCES_URL=http://fortishield.github.io/packages/deps/27
                 # gmake TARGET=agent USE_SELINUX=no PREFIX=/var/ossec
 
         #.  Run the ``install.sh`` script. This will run a wizard that will guide you through the installation process using the Fortishield sources:
@@ -612,7 +612,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
             .. code-block:: console
 
                 # cd fortishield-|FORTISHIELD_CURRENT_FROM_SOURCES|
-                # /usr/local/bin/gmake -C src deps RESOURCES_URL=http://packages.fortishield.com/deps/27 TARGET=agent
+                # /usr/local/bin/gmake -C src deps RESOURCES_URL=http://fortishield.github.io/packages/deps/27 TARGET=agent
                 # /usr/local/bin/gmake -C src TARGET=agent USE_SELINUX=no
 
         #.  Run the ``install.sh`` script. This will run a wizard that will guide you through the installation process using the Fortishield sources:
@@ -714,11 +714,11 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                         .. code-block:: console
 
-                            # curl -L http://packages.fortishield.com/utils/gcc/gcc-5.5.0.tar.gz | gtar xz && cd gcc-5.5.0
-                            # curl -L http://packages.fortishield.com/utils/gcc/mpfr-2.4.2.tar.bz2 | gtar xj && mv mpfr-2.4.2 mpfr
-                            # curl -L http://packages.fortishield.com/utils/gcc/gmp-4.3.2.tar.bz2 | gtar xj && mv gmp-4.3.2 gmp
-                            # curl -L http://packages.fortishield.com/utils/gcc/mpc-0.8.1.tar.gz | gtar xz && mv mpc-0.8.1 mpc
-                            # curl -L http://packages.fortishield.com/utils/gcc/isl-0.14.tar.bz2 | gtar xj && mv isl-0.14 isl
+                            # curl -L http://fortishield.github.io/packages/utils/gcc/gcc-5.5.0.tar.gz | gtar xz && cd gcc-5.5.0
+                            # curl -L http://fortishield.github.io/packages/utils/gcc/mpfr-2.4.2.tar.bz2 | gtar xj && mv mpfr-2.4.2 mpfr
+                            # curl -L http://fortishield.github.io/packages/utils/gcc/gmp-4.3.2.tar.bz2 | gtar xj && mv gmp-4.3.2 gmp
+                            # curl -L http://fortishield.github.io/packages/utils/gcc/mpc-0.8.1.tar.gz | gtar xz && mv mpc-0.8.1 mpc
+                            # curl -L http://fortishield.github.io/packages/utils/gcc/isl-0.14.tar.bz2 | gtar xj && mv isl-0.14 isl
                             # unset CPLUS_INCLUDE_PATH && unset LD_LIBRARY_PATH
                             # export PATH=/usr/sbin:/usr/bin:/usr/ccs/bin:/opt/csw/bin
                             # mkdir -p /usr/local
@@ -741,7 +741,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                         .. code-block:: console
 
-                            # curl -sL http://packages.fortishield.com/utils/cmake/cmake-3.18.3.tar.gz | gtar xz
+                            # curl -sL http://fortishield.github.io/packages/utils/cmake/cmake-3.18.3.tar.gz | gtar xz
                             # cd cmake-3.18.3
                             # ./bootstrap
                             # gmake && gmake install
@@ -799,7 +799,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
                             # export LD_LIBRARY_PATH=/usr/local/gcc-5.5.0/lib
                             # cd fortishield/src
                             # gmake clean
-                            # gmake deps TARGET=agent RESOURCES_URL=http://packages.fortishield.com/deps/27
+                            # gmake deps TARGET=agent RESOURCES_URL=http://fortishield.github.io/packages/deps/27
                             # gmake -j 4 TARGET=agent PREFIX=/var/ossec USE_SELINUX=no
                             USE_BIG_ENDIAN=yes
                             # cd ..
@@ -922,7 +922,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                         .. code-block:: console
 
-                            # curl -O https://packages.fortishield.com/utils/gcc/gcc-5.5.0.tar.gz && gtar xzf gcc-5.5.0.tar.gz
+                            # curl -O https://fortishield.github.io/packages/utils/gcc/gcc-5.5.0.tar.gz && gtar xzf gcc-5.5.0.tar.gz
                             # ln -sf gcc-5.5.0 gcc
                             # cd gcc && ./contrib/download_prerequisites
                             # cd .. && mkdir -p gcc-build && cd gcc-build
@@ -942,7 +942,7 @@ The Fortishield agent is a single and lightweight monitoring software. It is a m
 
                         .. code-block:: console
 
-                            # curl -O -L https://packages.fortishield.com/utils/cmake/cmake-3.18.3.tar.gz && gtar xzf cmake-3.18.3.tar.gz && ln -sf cmake-3.18.3 cmake
+                            # curl -O -L https://fortishield.github.io/packages/utils/cmake/cmake-3.18.3.tar.gz && gtar xzf cmake-3.18.3.tar.gz && ln -sf cmake-3.18.3 cmake
                             # cd cmake && ./bootstrap
                             # gmake
                             # gmake install

@@ -66,7 +66,7 @@ const newTabNodes = [
 
 /* Open external links in a new tab ========================================= */
 
-let oursHost = ['documentation.fortishield.com'];
+let oursHost = ['documentation.fortishield.github.io'];
 
 $('a.reference.external').each(function() {
   let link = new URL(this.href);

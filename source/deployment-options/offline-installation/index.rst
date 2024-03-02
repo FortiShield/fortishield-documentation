@@ -30,7 +30,7 @@ Download the packages and configuration files
 
             .. code-block:: console
         
-               # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
+               # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
                # chmod 744 fortishield-install.sh
                # ./fortishield-install.sh -dw rpm
 
@@ -38,7 +38,7 @@ Download the packages and configuration files
 
             .. code-block:: console
         
-               # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
+               # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
                # chmod 744 fortishield-install.sh
                # ./fortishield-install.sh -dw deb
           
@@ -46,7 +46,7 @@ Download the packages and configuration files
 
       .. code-block:: console
         
-         # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/config.yml
+         # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/config.yml
 
 #. Edit ``config.yml`` to prepare the certificates creation.
 

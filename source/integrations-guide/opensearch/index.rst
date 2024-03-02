@@ -57,14 +57,14 @@ Configuring new indexes
 
 You must define the mappings between the data and the index types to ensure OpenSearch indexes your data correctly. OpenSearch can infer these mappings, but we recommend that you explicitly configure them. Fortishield provides a set of mappings to ensure OpenSearch indexes the data correctly.
 
-You need to use the `logstash/os_template.json <https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json>`__ template to configure this index initialization for your OpenSearch platform.
+You need to use the `logstash/os_template.json <https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json>`__ template to configure this index initialization for your OpenSearch platform.
 
 Create a ``/etc/logstash/templates/`` directory and download the template as ``fortishield.json`` using the following commands:
 
 .. code-block:: console
 
    # mkdir /etc/logstash/templates
-   # curl -o /etc/logstash/templates/fortishield.json https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json
+   # curl -o /etc/logstash/templates/fortishield.json https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json
 
 In OpenSearch, the indexes support up to ``1000`` fields by default. However, Fortishield logs might contain even more than this number of fields. To solve this issue, the provided ``fortishield.json`` template has the fields set to ``10000`` by default as shown below:
 
@@ -283,14 +283,14 @@ Configuring new indexes
 
 You must define the mappings between the data and the index types to ensure Opensearch indexes your data correctly. Opensearch can infer these mappings, but we recommend that you explicitly configure them. Fortishield provides a set of mappings to ensure Opensearch indexes the data correctly.
 
-You need to use the `logstash/os_template.json <https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json>`__ template to configure this index initialization for your Opensearch platform. The ``refresh_interval`` is set to ``5s`` in the template we provide.
+You need to use the `logstash/os_template.json <https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json>`__ template to configure this index initialization for your Opensearch platform. The ``refresh_interval`` is set to ``5s`` in the template we provide.
 
 Create a ``/etc/logstash/templates/`` directory and download the template as ``fortishield.json`` using the following commands:
 
 .. code-block:: console
 
    # mkdir /etc/logstash/templates
-   # curl -o /etc/logstash/templates/fortishield.json https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json
+   # curl -o /etc/logstash/templates/fortishield.json https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-template.json
 
 In OpenSearch, the indexes support up to ``1000`` fields by default. However, Fortishield logs might contain even more than this number of fields. To solve this issue, the provided ``fortishield.json`` template has the fields set to ``10000`` by default as shown below:
 
@@ -490,7 +490,7 @@ To check the integration with OpenSearch, navigate to **Discover** in OpenSearch
 OpenSearch dashboards
 ---------------------
 
-Fortishield provides several `dashboards for OpenSearch <https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-dashboards.ndjson>`__. After finishing with the OpenSearch integration setup, these dashboards display your Fortishield alerts in OpenSearch.
+Fortishield provides several `dashboards for OpenSearch <https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-dashboards.ndjson>`__. After finishing with the OpenSearch integration setup, these dashboards display your Fortishield alerts in OpenSearch.
 
 .. thumbnail:: /images/integrations/security-events-dashboard-for-opensearch.png
    :title: Threat Hunting dashboard for Opensearch
@@ -507,13 +507,13 @@ Follow the next steps to import the Fortishield dashboards for OpenSearch.
 
       .. code-block:: console
 
-         # wget https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-dashboards.ndjson
+         # wget https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-dashboards.ndjson
 
    #. If you are accessing the Opensearch dashboard from a Windows system (run the command using Powershell):
 
       .. code-block:: powershell
 
-         # Invoke-WebRequest -Uri "https://packages.fortishield.com/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-dashboards.ndjson" -OutFile "allDashboards.ndjson"
+         # Invoke-WebRequest -Uri "https://fortishield.github.io/packages/integrations/opensearch/4.x-2.x/dashboards/wz-os-4.x-2.x-dashboards.ndjson" -OutFile "allDashboards.ndjson"
 
 #. In OpenSearch Dashboards, navigate to **Management** > **Dashboards management**.
 #. Click on **Saved Objects** and click **Import**.

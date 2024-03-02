@@ -182,7 +182,7 @@ Select your deployment type and follow the instructions to change the default pa
 
          .. code-block:: console
   
-            # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-passwords-tool.sh
+            # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-passwords-tool.sh
             # bash fortishield-passwords-tool.sh --change-all --admin-user fortishield --admin-password fortishield
   
          .. code-block:: console

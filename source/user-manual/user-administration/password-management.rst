@@ -30,7 +30,7 @@ The passwords tool is embedded in the Fortishield indexer under ``/usr/share/for
 
   .. code-block:: console
 
-    # curl -so fortishield-passwords-tool.sh https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-passwords-tool.sh
+    # curl -so fortishield-passwords-tool.sh https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-passwords-tool.sh
 
 
 All the available options to run the script are:
@@ -204,7 +204,7 @@ Follow the instructions below to change the passwords for all the Fortishield in
 
    .. code-block:: console
 
-      # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-passwords-tool.sh
+      # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-passwords-tool.sh
       # bash fortishield-passwords-tool.sh --change-all --admin-user fortishield --admin-password <fortishield-password>
 
    .. code-block:: console

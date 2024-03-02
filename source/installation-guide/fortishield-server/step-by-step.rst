@@ -117,7 +117,7 @@ Configuring Filebeat
 
       .. code-block:: console
 
-        # curl -so /etc/filebeat/filebeat.yml https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/tpl/fortishield/filebeat/filebeat.yml
+        # curl -so /etc/filebeat/filebeat.yml https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/tpl/fortishield/filebeat/filebeat.yml
 
 
   #. Edit the ``/etc/filebeat/filebeat.yml`` configuration file and replace the following value:
@@ -148,7 +148,7 @@ Configuring Filebeat
 
       .. code-block:: console
 
-        # curl -s https://packages.fortishield.com/4.x/filebeat/fortishield-filebeat-0.4.tar.gz | tar -xvz -C /usr/share/filebeat/module
+        # curl -s https://fortishield.github.io/packages/4.x/filebeat/fortishield-filebeat-0.4.tar.gz | tar -xvz -C /usr/share/filebeat/module
 
 Deploying certificates
 ^^^^^^^^^^^^^^^^^^^^^^

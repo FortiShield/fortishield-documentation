@@ -132,9 +132,9 @@ Fortishield server
 		  <logall>yes</logall>
 		  <logall_json>no</logall_json>
 		  <email_notification>no</email_notification>
-		  <smtp_server>smtp.example.fortishield.com</smtp_server>
-		  <email_from>fortishield@example.fortishield.com</email_from>
-		  <email_to>recipient@example.fortishield.com</email_to>
+		  <smtp_server>smtp.example.fortishield.github.io</smtp_server>
+		  <email_from>fortishield@example.fortishield.github.io</email_from>
+		  <email_to>recipient@example.fortishield.github.io</email_to>
 		  <email_maxperhour>12</email_maxperhour>
 		  <email_log_source>alerts.log</email_log_source>
 		  <agents_disconnection_time>10m</agents_disconnection_time>
@@ -363,6 +363,6 @@ Fortishield helps meet this article of the GDPR by providing security measures s
 -  :doc:`/user-manual/capabilities/malware-detection/index`.
 -  :doc:`Integrating with VirusTotal to detect and remove malware </proof-of-concept-guide/detect-remove-malware-virustotal>`.
 -  :doc:`Integrating with YARA to detect malware </proof-of-concept-guide/detect-malware-yara-integration>`.
--  `Using constant database (CDB) lists to detect and remove malicious files <https://fortishield.com/blog/detecting-and-responding-to-malicious-files-using-cdb-lists-and-active-response/>`__.
+-  `Using constant database (CDB) lists to detect and remove malicious files <https://fortishield.github.io/blog/detecting-and-responding-to-malicious-files-using-cdb-lists-and-active-response/>`__.
 -  :doc:`Active response </getting-started/use-cases/incident-response>`.
 -  :doc:`Vulnerability detection </getting-started/use-cases/vulnerability-detection>`.

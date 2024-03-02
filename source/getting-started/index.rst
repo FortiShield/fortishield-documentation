@@ -28,7 +28,7 @@ The Fortishield solution is composed of three :doc:`central platform components 
 Fortishield Cloud
 -----------
 
-The `Fortishield Cloud <https://fortishield.com/cloud/>`_ is our software as a service (SaaS) solution. We provide a `14-day free trial <https://console.cloud.fortishield.com/sign-up?landing=trial>`_ for you to create a cloud environment and get the best out of our SaaS solution. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information.
+The `Fortishield Cloud <https://fortishield.github.io/cloud/>`_ is our software as a service (SaaS) solution. We provide a `14-day free trial <https://console.cloud.fortishield.github.io/sign-up?landing=trial>`_ for you to create a cloud environment and get the best out of our SaaS solution. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information.
 
 Screenshots
 -----------

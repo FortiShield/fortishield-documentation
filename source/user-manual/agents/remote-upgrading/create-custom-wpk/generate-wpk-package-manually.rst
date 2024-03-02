@@ -131,7 +131,7 @@ Windows WPK
 
    .. code-block:: console
    
-     # curl -Ls https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi --output fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi
+     # curl -Ls https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi --output fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi
    
 #. Install the root CA if you want to overwrite the root CA with the file you created previously. 
 
@@ -186,7 +186,7 @@ macOS WPK
 
    .. code-block:: console
    
-     # curl -Ls https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.pkg --output fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.pkg
+     # curl -Ls https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.pkg --output fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.pkg
    
 #. Install the root CA if you want to overwrite the root CA with the file you created previously.
 

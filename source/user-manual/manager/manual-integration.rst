@@ -249,7 +249,7 @@ Once the configuration is complete, enriched alerts start showing in the Fortish
 Custom integration
 ------------------
 
-The integrator tool is able to connect Fortishield with other external software. Read the `How to integrate external software using Integrator <https://fortishield.com/blog/how-to-integrate-external-software-using-integrator//>`_ document for more information.
+The integrator tool is able to connect Fortishield with other external software. Read the `How to integrate external software using Integrator <https://fortishield.github.io/blog/how-to-integrate-external-software-using-integrator//>`_ document for more information.
 
 Below, you can find an example of a configuration block in the ``ossec.conf`` file for custom integration.
 

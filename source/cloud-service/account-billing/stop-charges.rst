@@ -12,7 +12,7 @@ You can always cancel an environment you no longer need. When performing this ac
 
 To stop being charged for an environment:
 
-1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.com/>`_.
+1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.github.io/>`_.
 2. Go to the **Environments** page and select the environment you want to cancel.
 3. Click **Cancel environment** and confirm the cancellation.
 

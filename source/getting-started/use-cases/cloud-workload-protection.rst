@@ -82,8 +82,8 @@ The image below shows alerts generated from a monitored Docker infrastructure.
 
 Some additional use cases for using Fortishield to monitor cloud-native applications are:
 
--  `Auditing Kubernetes with Fortishield <https://fortishield.com/blog/auditing-kubernetes-with-fortishield/>`__
--  `Monitoring GKE audit logs <https://fortishield.com/blog/monitoring-gke-audit-logs/>`__
+-  `Auditing Kubernetes with Fortishield <https://fortishield.github.io/blog/auditing-kubernetes-with-fortishield/>`__
+-  `Monitoring GKE audit logs <https://fortishield.github.io/blog/monitoring-gke-audit-logs/>`__
 -  :ref:`Monitoring user interaction with Docker resources <monitoring_user_interaction_with_docker_resources>`
 -  :ref:`Monitoring container runtime <monitoring_container_runtime>`
 
@@ -94,8 +94,8 @@ Promote security operations in the cloud
 
 Fortishield promotes security operations within cloud environments by allowing security teams to detect and respond to threats, mitigating damages, and reducing the overall impact on the cloud infrastructure. Furthermore, Fortishield facilitates red and blue team activities. The platform's customizable rules enable organizations to simulate attacks and test their security defenses. Blue teams can use the insights gained on Fortishield from red team activities to fine-tune their security measures and strengthen their defenses. The following resources demonstrate how to use the Stratus Red Team tool to simulate attacks on some cloud platforms and how to detect them with Fortishield:
 
--  `Adversary emulation on AWS with Stratus Red Team and Fortishield <https://fortishield.com/blog/adversary-emulation-on-aws-with-stratus-red-team-and-fortishield/>`__
--  `Adversary emulation on GCP with Stratus Red Team and Fortishield <https://fortishield.com/blog/adversary-emulation-on-gcp-with-stratus-red-team-and-fortishield/>`__
+-  `Adversary emulation on AWS with Stratus Red Team and Fortishield <https://fortishield.github.io/blog/adversary-emulation-on-aws-with-stratus-red-team-and-fortishield/>`__
+-  `Adversary emulation on GCP with Stratus Red Team and Fortishield <https://fortishield.github.io/blog/adversary-emulation-on-gcp-with-stratus-red-team-and-fortishield/>`__
 
 .. thumbnail:: /images/getting-started/use-cases/cloud-workload-protection/detection-results.png
    :title: Detection results

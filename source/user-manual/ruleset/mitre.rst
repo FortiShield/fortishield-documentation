@@ -78,7 +78,7 @@ Fortishield has out-of-the-box detection rules that are mapped against relevant 
 
 For this example, we require the following infrastructure:
 
-.. |FORTISHIELD_OVA| replace:: `Fortishield OVA <https://packages.fortishield.com/4.x/vm/fortishield-|FORTISHIELD_CURRENT|.ova>`__
+.. |FORTISHIELD_OVA| replace:: `Fortishield OVA <https://fortishield.github.io/packages/4.x/vm/fortishield-|FORTISHIELD_CURRENT|.ova>`__
 
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Endpoint         | Example description                                                                                                                                                                                                                  |
@@ -126,7 +126,7 @@ Windows 11
 
 Perform the following steps to configure the Fortishield agent to capture Sysmon logs and send them to the Fortishield server for analysis.
 
-#. Download `Sysmon <https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>`__ and the configuration file `sysmonconfig.xml <https://fortishield.com/resources/blog/emulation-of-attack-techniques-and-detection-with-fortishield/sysmonconfig.xml>`__.
+#. Download `Sysmon <https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>`__ and the configuration file `sysmonconfig.xml <https://fortishield.github.io/resources/blog/emulation-of-attack-techniques-and-detection-with-fortishield/sysmonconfig.xml>`__.
 #. Extract the contents of the ``Sysmon.zip`` file to a folder, and copy the ``sysmonconfig.xml`` configuration file to the same folder.
 #. Launch PowerShell with administrative privilege, navigate to the folder used in the step above, and install Sysmon as follows:
 

@@ -11,7 +11,7 @@ Virtual Machine (OVA)
 Fortishield provides a pre-built virtual machine image in Open Virtual Appliance (OVA) format. This can be directly imported to VirtualBox or other OVA compatible virtualization systems. Take into account that this VM only runs on 64-bit systems. It does not provide high availability and scalability out of the box. However, these can be implemented by using :doc:`distributed deployment </installation-guide/index>`.
 
 
-Download the `virtual appliance (OVA) <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OVA|/vm/fortishield-|FORTISHIELD_CURRENT_OVA|.ova>`_, which contains the following components:
+Download the `virtual appliance (OVA) <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OVA|/vm/fortishield-|FORTISHIELD_CURRENT_OVA|.ova>`_, which contains the following components:
 
     - Amazon Linux 2
     - Fortishield manager |FORTISHIELD_CURRENT_OVA|
@@ -22,7 +22,7 @@ Download the `virtual appliance (OVA) <https://packages.fortishield.com/|FORTISH
 Packages list
 -------------
 
-.. |VM_AL2_64_OVA| replace:: `fortishield-|FORTISHIELD_CURRENT_OVA|.ova <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OVA|/vm/fortishield-|FORTISHIELD_CURRENT_OVA|.ova>`__ (`sha512 <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OVA|/checksums/fortishield/|FORTISHIELD_CURRENT_OVA|/fortishield-|FORTISHIELD_CURRENT_OVA|.ova.sha512>`__)
+.. |VM_AL2_64_OVA| replace:: `fortishield-|FORTISHIELD_CURRENT_OVA|.ova <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OVA|/vm/fortishield-|FORTISHIELD_CURRENT_OVA|.ova>`__ (`sha512 <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OVA|/checksums/fortishield/|FORTISHIELD_CURRENT_OVA|/fortishield-|FORTISHIELD_CURRENT_OVA|.ova.sha512>`__)
 .. |FORTISHIELD_OVA_VERSION| replace:: |FORTISHIELD_CURRENT_OVA|
 
 +----------------+--------------+--------------+----------------------+------------------+

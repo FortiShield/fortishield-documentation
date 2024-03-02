@@ -31,7 +31,7 @@ You can also generate property-specific reports for a monitored endpoint. For ex
    :align: center
    :width: 80%
 
-The inventory data collected can be queried using the `Fortishield API <https://documentation.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#tag/Syscollector>`__, which retrieves nested data in JSON format. For example, you can query the package inventory to check for the ``fortishield-agent`` package on a monitored endpoint using the **Server management** > **Dev Tools** module on the Fortishield dashboard. Command line tools like :ref:`cURL <inventory_fortishield_api_curl>` can also be used to query the inventory database.
+The inventory data collected can be queried using the `Fortishield API <https://documentation.fortishield.github.io/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#tag/Syscollector>`__, which retrieves nested data in JSON format. For example, you can query the package inventory to check for the ``fortishield-agent`` package on a monitored endpoint using the **Server management** > **Dev Tools** module on the Fortishield dashboard. Command line tools like :ref:`cURL <inventory_fortishield_api_curl>` can also be used to query the inventory database.
 
 .. thumbnail:: /images/getting-started/use-cases/it-hygiene/inventory-querying-api.png
    :title: Querying the package inventory using the Dev Tools
@@ -106,7 +106,7 @@ Malware detection
 
 Malware detection is essential for safeguarding computer systems and networks from cyber threats. Organizations can improve their IT hygiene by identifying and mitigating malicious software that can cause data breaches, system compromises, and financial losses.
 
-Fortishield offers an out-of-the-box ruleset designed to recognize malware patterns and trigger alerts for quick response. Fortishield also allows security analysts to create :doc:`custom rules </user-manual/ruleset/custom>` tailored to their environment, thereby optimizing their malware detection efforts. For example, we created custom rules to detect `Vidar infostealer malware using Fortishield <https://fortishield.com/blog/detecting-vidar-infostealer-with-fortishield/>`__.
+Fortishield offers an out-of-the-box ruleset designed to recognize malware patterns and trigger alerts for quick response. Fortishield also allows security analysts to create :doc:`custom rules </user-manual/ruleset/custom>` tailored to their environment, thereby optimizing their malware detection efforts. For example, we created custom rules to detect `Vidar infostealer malware using Fortishield <https://fortishield.github.io/blog/detecting-vidar-infostealer-with-fortishield/>`__.
 
 .. code-block:: xml
 

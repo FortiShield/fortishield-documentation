@@ -128,8 +128,8 @@ html_theme = 'fortishield_doc_theme_v3'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'fortishield_web_url': 'https://fortishield.com',
-    'fortishield_doc_url': 'https://documentation.fortishield.com',
+    'fortishield_web_url': 'https://fortishield.github.io',
+    'fortishield_doc_url': 'https://documentation.fortishield.github.io',
     'collapse_navigation': False, # Only for Fortishield documentation theme v2.0
     'include_edit_repo': True,
     'include_version_selector': True,

@@ -120,11 +120,11 @@ Fortishield Manager
 |
 | **Variable**: ``fortishield_manager_email_smtp_server``
 | **Description**: Configures the :doc:`smtp_server </user-manual/reference/ossec-conf/global>` section in ``ossec.conf``.
-| **Default value**: ``smtp.example.fortishield.com``
+| **Default value**: ``smtp.example.fortishield.github.io``
 |
 | **Variable**: ``fortishield_manager_email_from``
 | **Description**: Configures the :doc:`email_from </user-manual/reference/ossec-conf/global>` section in ``ossec.conf``.
-| **Default value**: ``fortishield@example.fortishield.com``
+| **Default value**: ``fortishield@example.fortishield.github.io``
 |
 | **Variable**: ``fortishield_manager_email_maxperhour``
 | **Description**: Configures the :doc:`email_maxperhour </user-manual/reference/ossec-conf/global>` section in ``ossec.conf``.
@@ -170,7 +170,7 @@ Fortishield Manager
 
     fortishield_manager_extra_emails:
       - enable: false
-        mail_to: 'recipient@example.fortishield.com'
+        mail_to: 'recipient@example.fortishield.github.io'
         format: full
         level: 7
         event_location: null
@@ -203,7 +203,7 @@ Fortishield Manager
       - enable: false
         category: 'syscheck'
         title: 'Daily report: File changes'
-        email_to: 'recipient@example.fortishield.com'
+        email_to: 'recipient@example.fortishield.github.io'
         location: null
         group: null
         rule: null

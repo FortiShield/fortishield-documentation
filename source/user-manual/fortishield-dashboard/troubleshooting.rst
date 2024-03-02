@@ -222,7 +222,7 @@ If the restart does not solve the problem, we can execute this process manually:
 None of the above solutions are fixing my problem
 -------------------------------------------------
 
-We have a welcoming community which can help you with most of the problems you might have regarding Fortishield deployment and usage `<https://fortishield.com/community>`_.
+We have a welcoming community which can help you with most of the problems you might have regarding Fortishield deployment and usage `<https://fortishield.github.io/community>`_.
 
 Also, you can contact us opening issues in our GitHub repositories under the `organization <https://github.com/fortishield>`_.
 

@@ -72,7 +72,7 @@ To build a WPK for Windows, you need to first download an MSI package of the des
 
 .. code-block:: console
 
-  # curl -O https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi
+  # curl -O https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi
 
 Below, you will find an example of Windows WPK package building.
 
@@ -91,7 +91,7 @@ To build a WPK for macOS you need to first download a PKG package of the desired
 
 .. code-block:: console
 
-  # curl -O https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.pkg
+  # curl -O https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.pkg
 
 Below, you will find an example of macOS WPK package building.
 

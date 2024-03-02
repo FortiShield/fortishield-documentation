@@ -12,7 +12,7 @@ The agent runs on the endpoint you want to monitor and communicates with the For
 
 .. note:: To perform the installation, administrator privileges are required.
 
-#. To start the installation process, download the `Windows installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi>`_. 
+#. To start the installation process, download the `Windows installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi>`_. 
 
 #. Select the installation method you want to follow: command line interface (CLI) or graphical user interface (GUI).
 

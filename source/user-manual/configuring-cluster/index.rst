@@ -122,7 +122,7 @@ Deploying a Fortishield cluster
     +-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
     | Type                                                              | Description                                                                                                                            |
     +===================================================================+========================================================================================================================================+
-    | `RPM/DEB packages <https://documentation.fortishield.com/3.13/installation-guide/installing-splunk/splunk-forwarder.html>`_                        | Install Splunk forwarder for RPM or DEB based OS.           |
+    | `RPM/DEB packages <https://documentation.fortishield.github.io/3.13/installation-guide/installing-splunk/splunk-forwarder.html>`_                        | Install Splunk forwarder for RPM or DEB based OS.           |
     +-------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
 
 

@@ -12,7 +12,7 @@ The installed agent runs on the endpoint you want to monitor and communicates wi
 
 .. note:: You need root user privileges to run all the commands described below.
 
-#. To start the installation process, download the `HP-UX installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_HPUX|/hp-ux/fortishield-agent-|FORTISHIELD_CURRENT_HPUX|-|FORTISHIELD_REVISION_HPUX|-hpux-11v3-ia64.tar>`_. 
+#. To start the installation process, download the `HP-UX installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_HPUX|/hp-ux/fortishield-agent-|FORTISHIELD_CURRENT_HPUX|-|FORTISHIELD_REVISION_HPUX|-hpux-11v3-ia64.tar>`_. 
 
 #. Create the ``fortishield`` user and group.
    

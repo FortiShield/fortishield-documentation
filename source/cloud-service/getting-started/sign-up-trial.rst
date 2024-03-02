@@ -15,7 +15,7 @@ Sign up
 
 To sign up for a free trial, do the following.
 
-#. Go to our Fortishield Cloud Console `Login <https://console.cloud.fortishield.com/>`_ page.
+#. Go to our Fortishield Cloud Console `Login <https://console.cloud.fortishield.github.io/>`_ page.
 
 #. Fill in the required information and click the **Create account** button.
 
@@ -28,7 +28,7 @@ Create environment
 
 Follow these steps to quickly set up and run your environment:
 
-#. From the `Fortishield Cloud Console <https://console.cloud.fortishield.com/>`_, click the **Start your free trial** button.
+#. From the `Fortishield Cloud Console <https://console.cloud.fortishield.github.io/>`_, click the **Start your free trial** button.
 
 #. Configure your environment:
 

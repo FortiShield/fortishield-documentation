@@ -109,7 +109,7 @@ Perform the steps below to install and configure Sysmon on the Windows 11 endpoi
 
 #. Download Sysmon from the `Microsoft Sysinternals page <https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon>`_.
 
-#. Download the Sysmon configuration file: `sysmonconfig.xml <https://fortishield.com/resources/blog/detecting-process-injection-with-fortishield/sysmonconfig.xml>`_.
+#. Download the Sysmon configuration file: `sysmonconfig.xml <https://fortishield.github.io/resources/blog/detecting-process-injection-with-fortishield/sysmonconfig.xml>`_.
 
 #. Install Sysmon with the downloaded configuration file using PowerShell as an administrator:
 

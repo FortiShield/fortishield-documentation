@@ -12,8 +12,8 @@ Elastic, OpenSearch, and Splunk are software platforms designed for search, anal
 
 Up to Fortishield v4.5, the following integrated applications allow users to manage Fortishield and its security data using third-party platforms:
 
--  `Fortishield for Splunk <https://documentation.fortishield.com/4.5/deployment-options/splunk/splunk-app.html>`__
--  `Fortishield for Elastic <https://documentation.fortishield.com/4.5/deployment-options/elastic-stack/index.html>`__
+-  `Fortishield for Splunk <https://documentation.fortishield.github.io/4.5/deployment-options/splunk/splunk-app.html>`__
+-  `Fortishield for Elastic <https://documentation.fortishield.github.io/4.5/deployment-options/elastic-stack/index.html>`__
 
 However, from version 4.6, we will not develop these integrated applications any longer. We will only support them with critical security updates. In this document, we describe new methods of integrating your Fortishield deployment with the following third-party security platforms:
 

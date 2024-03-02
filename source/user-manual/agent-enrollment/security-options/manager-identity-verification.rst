@@ -70,13 +70,13 @@ Manager configuration
                   subjectAltName = @alt_names
                   [alt_names]
                   DNS.1 = fortishield
-                  DNS.2 = fortishield.com
+                  DNS.2 = fortishield.github.io
 
 
          Where: 
 
             - ``C`` is the country where the organization making this request is domiciled.
-            - ``CN`` is the common name on the certificate. This should be the Fortishield manager IP address or its DNS name. This field is not optional. In this case, the Fortishield manager DNS are fortishield and fortishield.com.
+            - ``CN`` is the common name on the certificate. This should be the Fortishield manager IP address or its DNS name. This field is not optional. In this case, the Fortishield manager DNS are fortishield and fortishield.github.io.
             - ``subjectAltName`` is optional and specifies the alternate subject names that can be used for the server. Note that to allow the enrollment of the Fortishield agents with a SAN certificate, this should be included.
 
     #. Create a certificate signing request (CSR) on the Fortishield manager with the following command:

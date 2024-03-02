@@ -31,7 +31,7 @@ The Syscollector module runs periodic scans and sends the updated data in JSON f
 Using the Fortishield API
 ^^^^^^^^^^^^^^^^^^^
 
-You can query the Fortishield inventory data using the `Fortishield API <https://documentation.fortishield.com/current/user-manual/api/reference.html#tag/Syscollector>`_, which retrieves nested data in JSON format. You can use the Fortishield API GUI on the dashboard or a command line tool like ``cURL`` to query the inventory database. 
+You can query the Fortishield inventory data using the `Fortishield API <https://documentation.fortishield.github.io/current/user-manual/api/reference.html#tag/Syscollector>`_, which retrieves nested data in JSON format. You can use the Fortishield API GUI on the dashboard or a command line tool like ``cURL`` to query the inventory database. 
 
 Fortishield API GUI
 ~~~~~~~~~~~~~
@@ -104,7 +104,7 @@ Follow the steps below to query the endpoint database from the command line usin
 
       curl -k -X GET "https://<FORTISHIELD_SERVER_IP>:55000/syscollector/010/packages?pretty=true" -H  "Authorization: Bearer $TOKEN"
 
-   The other inventory properties are ``hardware``, ``hotfixes``, ``netaddr``, ``netiface``, ``netproto``, ``os``, ``ports``, and ``processes``. These all correspond to the tables in the :doc:`inventory database </user-manual/capabilities/system-inventory/available-inventory-fields>`. You can learn more about these options in our `API documentation <https://documentation.fortishield.com/current/user-manual/api/reference.html#tag/Syscollector>`_.
+   The other inventory properties are ``hardware``, ``hotfixes``, ``netaddr``, ``netiface``, ``netproto``, ``os``, ``ports``, and ``processes``. These all correspond to the tables in the :doc:`inventory database </user-manual/capabilities/system-inventory/available-inventory-fields>`. You can learn more about these options in our `API documentation <https://documentation.fortishield.github.io/current/user-manual/api/reference.html#tag/Syscollector>`_.
 
    .. code-block:: console
       :class: output
@@ -192,7 +192,7 @@ Follow the steps below to query the endpoint database from the command line usin
                   "install_time": "1691563709",
                   "name": "fortishield-agent",
                   "section": "System Environment/Daemons",
-                  "vendor": "Fortishield, Inc <info@fortishield.com>",
+                  "vendor": "Fortishield, Inc <info@fortishield.github.io>",
                   "version": "4.5.0-1",
                   "agent_id": "001"
                }
@@ -251,7 +251,7 @@ You can further query the tables for any information you are interested in. For 
 .. code-block:: console
    :class: output
 
-   0|2023/01/06 13:48:56|rpm|fortishield-agent||System Environment/Daemons|25988677|Fortishield, Inc <info@fortishield.com>|1673012221|4.3.10-1|x86_64|||Fortishield helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring||1|||1cf5a056a0ff5b6201939eba76ef68f6d860af36|5747279dac052d61c6d3ec87b475edddb84e9dd1
+   0|2023/01/06 13:48:56|rpm|fortishield-agent||System Environment/Daemons|25988677|Fortishield, Inc <info@fortishield.github.io>|1673012221|4.3.10-1|x86_64|||Fortishield helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring||1|||1cf5a056a0ff5b6201939eba76ef68f6d860af36|5747279dac052d61c6d3ec87b475edddb84e9dd1
 
 
 

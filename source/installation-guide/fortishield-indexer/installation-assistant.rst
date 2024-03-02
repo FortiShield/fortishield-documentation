@@ -30,8 +30,8 @@ Indicate your deployment configuration, create the SSL certificates to encrypt c
 
       .. code-block:: console
 
-          # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
-          # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/config.yml
+          # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
+          # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/config.yml
        
 #. Edit ``./config.yml`` and replace the node names and IP values with the corresponding names and IP addresses. You need to do this for all Fortishield server, Fortishield indexer, and Fortishield dashboard nodes. Add as many node fields as needed.
 
@@ -87,7 +87,7 @@ Install and configure the Fortishield indexer nodes.
 
       .. code-block:: console
 
-        # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
+        # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
 
 
 #. Run the Fortishield installation assistant with the option ``--fortishield-indexer`` and the node name to install and configure the Fortishield indexer. The node name must be the same one used in ``config.yml`` for the initial configuration, for example, ``node-1``.

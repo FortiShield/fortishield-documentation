@@ -11,7 +11,7 @@ Follow these steps to upgrade Fortishield agents locally on Windows systems. If 
 
 .. note:: To perform the agent upgrade, administrator privileges are required.
 
-#. Download the latest `Windows installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi>`_. 
+#. Download the latest `Windows installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_WINDOWS|/windows/fortishield-agent-|FORTISHIELD_CURRENT_WINDOWS|-|FORTISHIELD_REVISION_WINDOWS|.msi>`_. 
 
 #. Run the Windows installer by using the command line interface (CLI) or the graphical user interface (GUI).
 

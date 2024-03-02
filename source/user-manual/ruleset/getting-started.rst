@@ -73,7 +73,7 @@ Resources
 ^^^^^^^^^
 
 -  Visit our repository to view the rules in detail at `GitHub Fortishield <https://github.com/fortishield/fortishield/tree/v|FORTISHIELD_CURRENT|/ruleset>`_
--  Find a complete description of the available rules at `Fortishield Ruleset Summary <http://www.fortishield.com/resources/Fortishield_Ruleset.pdf>`_
+-  Find a complete description of the available rules at `Fortishield Ruleset Summary <http://www.fortishield.github.io/resources/Fortishield_Ruleset.pdf>`_
 
 
 Rule and Rootcheck example

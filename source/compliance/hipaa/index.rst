@@ -16,7 +16,7 @@ Fortishield has various capabilities that assist with HIPAA compliance such as l
 
 Fortishield includes default rules and decoders for detecting security incidents, system errors, security misconfigurations, and policy violations. By default, these rules are mapped to the associated HIPAA standard. In addition to the default rule mapping provided by Fortishield, it’s possible to map your custom rules to one or more HIPAA standards by adding the compliance identifier in the ``<group>`` tag of the rule. The syntax used to map a rule to a HIPAA standard is ``hipaa_`` followed by the number of the requirement, for example, ``hipaa_164.312.b``. Refer to the :doc:`ruleset section </user-manual/ruleset/index>` for more information. 
 
-The `Fortishield for HIPAA guide (PDF) <https://fortishield.com/resources/Fortishield-for-IPAA-guide-V2.0.pdf>`_ focuses on part 164, subpart C (Security Standards For The Protection Of Electronic Protected Health Information) of the HIPAA standard. This guide explains how the various Fortishield modules assist in complying with HIPAA standards.
+The `Fortishield for HIPAA guide (PDF) <https://fortishield.github.io/resources/Fortishield-for-IPAA-guide-V2.0.pdf>`_ focuses on part 164, subpart C (Security Standards For The Protection Of Electronic Protected Health Information) of the HIPAA standard. This guide explains how the various Fortishield modules assist in complying with HIPAA standards.
 
 We have use cases in the following sections that show how to use Fortishield capabilities and modules to comply with HIPAA standards:
 

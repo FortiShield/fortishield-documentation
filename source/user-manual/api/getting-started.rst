@@ -343,8 +343,8 @@ Here are some of the basic concepts related to making API requests and understan
                   "code": 1707,
                   "message": "Cannot send request, agent is not active",
                   "remediation": "Please, check non-active agents connection and try again. Visit
-                  https://documentation.fortishield.com/current/user-manual/registering/index.html and
-                  https://documentation.fortishield.com/current/user-manual/agents/agent-connection.html
+                  https://documentation.fortishield.github.io/current/user-manual/registering/index.html and
+                  https://documentation.fortishield.github.io/current/user-manual/agents/agent-connection.html
                   to obtain more information on registering and connecting agents"
                 },
                 "id": [
@@ -415,7 +415,7 @@ Here are some of the basic concepts related to making API requests and understan
         {
           "title": "Permission Denied",
           "detail": "Permission denied: Resource type: *:*",
-          "remediation": "Please, make sure you have permissions to execute the current request. For more information on how to set up permissions, please visit https://documentation.fortishield.com/current/user-manual/api/rbac/configuration.html",
+          "remediation": "Please, make sure you have permissions to execute the current request. For more information on how to set up permissions, please visit https://documentation.fortishield.github.io/current/user-manual/api/rbac/configuration.html",
           "error": 4000,
           "dapi_errors": {
             "unknown-node": {

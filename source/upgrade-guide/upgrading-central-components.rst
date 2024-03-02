@@ -192,7 +192,7 @@ When upgrading a multi-node Fortishield manager cluster, run the upgrade in ever
 
     .. code-block:: console
 
-      # curl -s https://packages.fortishield.com/4.x/filebeat/fortishield-filebeat-0.4.tar.gz | sudo tar -xvz -C /usr/share/filebeat/module
+      # curl -s https://fortishield.github.io/packages/4.x/filebeat/fortishield-filebeat-0.4.tar.gz | sudo tar -xvz -C /usr/share/filebeat/module
 
 
 #. Download the alerts template:

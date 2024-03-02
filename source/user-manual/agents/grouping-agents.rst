@@ -11,7 +11,7 @@ Grouping agents
 There are two methods for configuring registered agents. They can either be configured locally with the :doc:`ossec.conf <../reference/ossec-conf/index>` file or remotely using
 the :doc:`centralized configuration <../reference/centralized-configuration>`. If the centralized configuration is used, agents may be assigned to groups where each group possesses a unique configuration.  This greatly simplifies the overall configuration process.
 
-.. note:: Read the `Agent groups and centralized configuration <https://fortishield.com/blog/agent-groups-and-centralized-configuration//>`_ document for more information.
+.. note:: Read the `Agent groups and centralized configuration <https://fortishield.github.io/blog/agent-groups-and-centralized-configuration//>`_ document for more information.
 
 Unless otherwise assigned, all new connected agents automatically belong to the **'default'** group. This group is created during the installation process with the configuration files placed in the ``/var/ossec/etc/shared/default/`` folder. These files will be pushed from the manager to all agents belonging to this group.
 

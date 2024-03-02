@@ -37,7 +37,7 @@ Fortishield captures real-time events performed by the Docker engine via its :do
 
 Fortishield also monitors the creation and destruction of resources in Kubernetes clusters to help identify unauthorized actions and potential security breaches.
 
-The blog post on `Auditing Kubernetes with Fortishield <https://fortishield.com/blog/auditing-kubernetes-with-fortishield/>`__ demonstrates how to monitor Kubernetes resource interactions with Fortishield.
+The blog post on `Auditing Kubernetes with Fortishield <https://fortishield.github.io/blog/auditing-kubernetes-with-fortishield/>`__ demonstrates how to monitor Kubernetes resource interactions with Fortishield.
 
 .. thumbnail:: /images/getting-started/use-cases/container-security/kubernetes-resource-interaction-alerts.png
    :title: Kubernetes resource interaction alerts
@@ -65,7 +65,7 @@ Fortishield tracks and analyzes the resource consumption of containerized applic
 
 Fortishield provides customizable alerts and notifications, enabling organizations to detect and proactively respond to unusual resource spikes or consumption patterns.
 
-The blog post on `Docker container security monitoring with Fortishield <https://fortishield.com/blog/docker-container-security-monitoring-with-fortishield/>`__ demonstrates how Fortishield monitors network utilization in a containerized environment.
+The blog post on `Docker container security monitoring with Fortishield <https://fortishield.github.io/blog/docker-container-security-monitoring-with-fortishield/>`__ demonstrates how Fortishield monitors network utilization in a containerized environment.
 
 .. thumbnail:: /images/getting-started/use-cases/container-security/monitoring-network-utilization.png
    :title: Monitoring network utilization in a containerized environment
@@ -91,7 +91,7 @@ The image below displays the customized container dashboard of Fortishield, wher
 Container alert notification with Fortishield
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Fortishield integrates with messaging platforms like :doc:`email </user-manual/manager/manual-email-report/index>` and :ref:`Slack <slack_manual_integration>`. It also integrates with case management solutions, like `Jira <https://fortishield.com/blog/how-to-integrate-external-software-using-integrator/>`__ , for incident response and real-time alerting. This ensures that security teams are promptly notified whenever potential threats or unauthorized actions occur in containerized environments.
+Fortishield integrates with messaging platforms like :doc:`email </user-manual/manager/manual-email-report/index>` and :ref:`Slack <slack_manual_integration>`. It also integrates with case management solutions, like `Jira <https://fortishield.github.io/blog/how-to-integrate-external-software-using-integrator/>`__ , for incident response and real-time alerting. This ensures that security teams are promptly notified whenever potential threats or unauthorized actions occur in containerized environments.
 
 The documentation on :doc:`/user-manual/manager/manual-integration` explains how the Integrator daemon allows Fortishield to connect to external APIs and case management systems tools like :ref:`PagerDuty <pagerduty_manual_integration>`.
 

@@ -15,7 +15,7 @@ Viewing environment usage metrics
 
 To see metrics of your Fortishield Cloud environment, follow these steps:
 
-1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.com/>`_.
+1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.github.io/>`_.
 2. Go to the **Environments** page and select your specific environment.
 3. Click on the **Metrics** tab.
    

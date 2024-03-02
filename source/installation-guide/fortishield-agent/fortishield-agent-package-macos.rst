@@ -10,8 +10,8 @@ The agent runs on the endpoint you want to monitor and communicates with the For
 
 .. note:: You need root user privileges to run all the commands described below.
 
-.. |macOS_intel_64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg>`__
-.. |macOS_arm64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg>`__
+.. |macOS_intel_64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg>`__
+.. |macOS_arm64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg>`__
 
 
 #. To start the installation process, download the Fortishield agent according to your architecture:

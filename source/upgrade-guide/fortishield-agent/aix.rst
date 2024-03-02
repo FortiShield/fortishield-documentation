@@ -9,7 +9,7 @@ Upgrading Fortishield agents on AIX systems
 
 Follow the steps to upgrade the Fortishield agent on AIX systems.  
   
-#. Download the latest `AIX installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_AIX|/aix/fortishield-agent-|FORTISHIELD_CURRENT_AIX|-|FORTISHIELD_REVISION_AIX|.aix.ppc.rpm>`_. 
+#. Download the latest `AIX installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_AIX|/aix/fortishield-agent-|FORTISHIELD_CURRENT_AIX|-|FORTISHIELD_REVISION_AIX|.aix.ppc.rpm>`_. 
 
 #. Run the following command:
 

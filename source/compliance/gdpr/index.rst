@@ -12,7 +12,7 @@ Fortishield assists with GDPR compliance by performing log collection, file inte
 
 Fortishield includes default rules and decoders for detecting various attacks, system errors, security misconfigurations, and policy violations. By default, these rules are mapped to the associated GDPR requirements. It’s possible to map your custom rules to one or more GDPR requirements by adding the compliance identifier in the ``<group>`` tag of the rule. The syntax to map a rule to a GDPR requirement is ``gdpr_`` followed by the chapter, the article, and, if applicable, the section and paragraph to which the requirement belongs. For example, ``gdpr_II_5.1.f``. Refer to the :ref:`ruleset section <rules_group>` for more information.
 
-The `Fortishield for GDPR white paper (PDF) <https://fortishield.com/resources/Fortishield_GDPR_White_Paper.pdf>`__ guide explains how Fortishield modules assist with GDPR compliance. This document doesn’t cover the GDPR formal requirements because it’s outside of its technical scope.
+The `Fortishield for GDPR white paper (PDF) <https://fortishield.github.io/resources/Fortishield_GDPR_White_Paper.pdf>`__ guide explains how Fortishield modules assist with GDPR compliance. This document doesn’t cover the GDPR formal requirements because it’s outside of its technical scope.
 
 You can find the technical requirements that Fortishield supports in the following sections:
 

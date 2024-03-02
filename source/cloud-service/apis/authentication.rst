@@ -15,7 +15,7 @@ Fortishield Cloud supports only API key-based authentication.
 
 To obtain an API key:
 
-1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.com/>`_.
+1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.github.io/>`_.
 
 2. Go to the **Account** section and select **API Keys**.
   
@@ -31,7 +31,7 @@ To obtain an API key:
 
 To revoke an API key:
 
-1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.com/>`_.
+1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.github.io/>`_.
 
 2. Go to the **Account** section and select **API Keys**.
 

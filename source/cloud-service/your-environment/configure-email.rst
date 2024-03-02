@@ -23,7 +23,7 @@ The Fortishield Cloud SMTP is limited to 100 emails per hour, regardless of the 
    <global>
      . . .
      <smtp_server>fortishield-smtp</smtp_server>
-     <email_from>no-reply@fortishield.com</email_from>
+     <email_from>no-reply@fortishield.github.io</email_from>
      ...
    </global>
 

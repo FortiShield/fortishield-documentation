@@ -157,6 +157,6 @@ The Fortishield dashboard enables users to explore log entries in real time, app
 
 Fortishield allows users to :doc:`create customized dashboards </user-manual/fortishield-dashboard/creating-custom-dashboards>` that display key performance indicators, security metrics, and real-time monitoring of critical systems and applications. Users can assemble multiple visualizations, such as pie charts, line graphs, and heat maps, onto a single dashboard, providing a holistic view of their infrastructure's security posture. The following blog posts detailed how to query and create custom dashboards:
 
--  `Monitoring macOS resources with Fortishield <https://fortishield.com/blog/monitoring-macos-resources/>`__
--  `Monitoring Linux resources with Fortishield <https://fortishield.com/blog/monitoring-linux-resource-usage-with-fortishield/>`__
--  `Monitoring Windows resources with Performance Counters <https://fortishield.com/blog/monitoring-windows-resources-with-performance-counters/>`__
+-  `Monitoring macOS resources with Fortishield <https://fortishield.github.io/blog/monitoring-macos-resources/>`__
+-  `Monitoring Linux resources with Fortishield <https://fortishield.github.io/blog/monitoring-linux-resource-usage-with-fortishield/>`__
+-  `Monitoring Windows resources with Performance Counters <https://fortishield.github.io/blog/monitoring-windows-resources-with-performance-counters/>`__

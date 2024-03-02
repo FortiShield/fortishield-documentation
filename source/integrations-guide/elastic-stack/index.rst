@@ -62,14 +62,14 @@ Configuring new indexes
 
 You must define the mappings between the data and the index types to ensure Elasticsearch indexes your data correctly. Elasticsearch can infer these mappings, but we recommend that you explicitly configure them. Fortishield provides a set of mappings to ensure Elasticsearch indexes the data correctly.
 
-You need to use the `logstash/es_template.json <https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json>`__ template to configure this index initialization for your Elasticsearch platform. The ``refresh_interval`` is set to ``5s`` in the template we provide.
+You need to use the `logstash/es_template.json <https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json>`__ template to configure this index initialization for your Elasticsearch platform. The ``refresh_interval`` is set to ``5s`` in the template we provide.
 
 Create a ``/etc/logstash/templates/`` directory and download the template as ``fortishield.json`` using the following commands:
 
 .. code-block:: console
 
    $ sudo mkdir /etc/logstash/templates
-   $ sudo curl -o /etc/logstash/templates/fortishield.json https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json
+   $ sudo curl -o /etc/logstash/templates/fortishield.json https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json
 
 In Elasticsearch, the indexes support up to ``1000`` fields by default. However, Fortishield logs might contain even more than this number of fields. To solve this issue, the provided ``fortishield.json`` template has the fields set to ``10000`` by default as shown below:
 
@@ -289,14 +289,14 @@ Configuring new indexes
 
 You must define the mappings between the data and the index types to ensure Elasticsearch indexes your data correctly. Elasticsearch can infer these mappings, but we recommend that you explicitly configure them. Fortishield provides a set of mappings to ensure Elasticsearch indexes the data correctly.
 
-You need to use the `logstash/es_template.json <https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json>`__ template to configure this index initialization for your Elasticsearch platform. The ``refresh_interval`` is set to ``5s`` in the template we provide.
+You need to use the `logstash/es_template.json <https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json>`__ template to configure this index initialization for your Elasticsearch platform. The ``refresh_interval`` is set to ``5s`` in the template we provide.
 
 Create a ``/etc/logstash/templates/`` directory and download the template as ``fortishield.json`` using the following commands:
 
 .. code-block:: console
 
    $ sudo mkdir /etc/logstash/templates
-   $ sudo curl -o /etc/logstash/templates/fortishield.json https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json
+   $ sudo curl -o /etc/logstash/templates/fortishield.json https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-template.json
 
 In Elasticsearch, the indexes support up to ``1000`` fields by default. However, Fortishield logs might contain even more than this number of fields. To solve this issue, the provided ``fortishield.json`` template has the fields set to ``10000`` by default as shown below:
 
@@ -491,7 +491,7 @@ To check the integration with Elasticsearch, navigate to **Discover** in Kibana 
 Elastic dashboards
 ------------------
 
-Fortishield provides several `dashboards for Elastic Stack <https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-dashboards.ndjson>`__. After finishing with the Elasticsearch integration setup, these dashboards display your Fortishield alerts in Elastic.
+Fortishield provides several `dashboards for Elastic Stack <https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-dashboards.ndjson>`__. After finishing with the Elasticsearch integration setup, these dashboards display your Fortishield alerts in Elastic.
 
 .. thumbnail:: /images/integrations/security-events-dashboard-for-elastic.png
    :title: Security events dashboard for Elastic
@@ -508,13 +508,13 @@ Follow the next steps to import the Fortishield dashboards for Elastic.
 
       .. code-block:: console
 
-         # wget https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-dashboards.ndjson
+         # wget https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-dashboards.ndjson
    
    -  If you are accessing the Elastic dashboard (Kibana) from a Windows system, run the following command in Powershell:
 
       .. code-block:: powershell
 
-         # Invoke-WebRequest -Uri "https://packages.fortishield.com/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-dashboards.ndjson" -OutFile "allDashboards.ndjson"
+         # Invoke-WebRequest -Uri "https://fortishield.github.io/packages/integrations/elastic/4.x-8.x/dashboards/wz-es-4.x-8.x-dashboards.ndjson" -OutFile "allDashboards.ndjson"
 
 #. Navigate to **Management** > **Stack management** in Kibana.
 #. Click on **Saved Objects** and click **Import**.

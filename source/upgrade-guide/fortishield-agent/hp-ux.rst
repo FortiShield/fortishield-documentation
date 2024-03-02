@@ -9,7 +9,7 @@ Upgrading Fortishield agents on HP-UX systems
 
 Follow the steps to upgrade the Fortishield agent on HP-UX systems.  
 
-#. Download the latest `HP-UX installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_HPUX|/hp-ux/fortishield-agent-|FORTISHIELD_CURRENT_HPUX|-|FORTISHIELD_REVISION_HPUX|-hpux-11v3-ia64.tar>`_.
+#. Download the latest `HP-UX installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_HPUX|/hp-ux/fortishield-agent-|FORTISHIELD_CURRENT_HPUX|-|FORTISHIELD_REVISION_HPUX|-hpux-11v3-ia64.tar>`_.
 
 #. Stop the Fortishield agent.
 

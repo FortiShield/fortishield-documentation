@@ -14,7 +14,7 @@ Fortishield helps ensure PCI DSS compliance by performing log collection, file i
 
 This guide explains how Fortishield capabilities and modules assist with meeting **PCI DSS version 4.0** requirements:
 
--  `Fortishield for PCI DSS V4.0 Guide (PDF) <https://fortishield.com/resources/FORTISHIELD-PCI-DSS-V4.0-guide.pdf>`_
+-  `Fortishield for PCI DSS V4.0 Guide (PDF) <https://fortishield.github.io/resources/FORTISHIELD-PCI-DSS-V4.0-guide.pdf>`_
 
 In the following sections, we show some use cases on how to use Fortishield capabilities and modules to meet **PCI DSS version 4.0** requirements:
 

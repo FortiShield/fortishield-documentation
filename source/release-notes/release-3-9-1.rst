@@ -57,7 +57,7 @@ Fortishield is now compatible with Elastic Stack 7, which includes, between othe
 
 Additionally, since this Fortishield release, Logstash is no longer required, Filebeat will send the events directly to Elasticsearch server.
 
-- `Upgrading to Elastic Stack 7.1 <https://documentation.fortishield.com/3.9/upgrade-guide/upgrading-elastic-stack/elastic_server_rolling_upgrade.html>`__
+- `Upgrading to Elastic Stack 7.1 <https://documentation.fortishield.github.io/3.9/upgrade-guide/upgrading-elastic-stack/elastic_server_rolling_upgrade.html>`__
 - `Elastic Stack 7.0.0 release blogpost <https://www.elastic.co/blog/elastic-stack-7-0-0-released>`_
 
 

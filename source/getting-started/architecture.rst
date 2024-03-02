@@ -32,7 +32,7 @@ The Fortishield messages protocol uses AES encryption by default, with 128 bits 
 
 .. note::
    
-   Read the `Benefits of using AES in the Fortishield communications <https://fortishield.com/blog/benefits-of-using-aes-in-our-communications>`_ document for more information.
+   Read the `Benefits of using AES in the Fortishield communications <https://fortishield.github.io/blog/benefits-of-using-aes-in-our-communications>`_ document for more information.
 
 Fortishield server - Fortishield indexer communication
 ------------------------------------------

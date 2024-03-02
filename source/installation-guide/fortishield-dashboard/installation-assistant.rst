@@ -15,7 +15,7 @@ Fortishield dashboard installation
 
    .. code-block:: console
 
-      # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
+      # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh
 
 #. Run the Fortishield installation assistant with the option ``--fortishield-dashboard`` and the node name to install and configure the Fortishield dashboard. The node name must be the same one used in ``config.yml`` for the initial configuration, for example, ``dashboard``.
    

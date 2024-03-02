@@ -48,7 +48,7 @@ This is an example of a multi-host configuration:
 
     hosts:
         - fortishield_prod:
-            url: https://fortishield.com
+            url: https://fortishield.github.io
             port: 55000
             username: fortishield-wui
             password: secret_password

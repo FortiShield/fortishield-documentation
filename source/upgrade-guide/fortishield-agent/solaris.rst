@@ -15,9 +15,9 @@ Select your Solaris version and follow the steps to upgrade the Fortishield agen
 
       #. Download the latest Solaris 11 installer. Choose one option depending on the host architecture.
 
-         * `Solaris 11 i386 installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_SOLARIS11_i386|/solaris/i386/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_
+         * `Solaris 11 i386 installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_SOLARIS11_i386|/solaris/i386/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_
 
-         * `Solaris 11 sparc installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_SOLARIS11_SPARC|/solaris/sparc/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_
+         * `Solaris 11 sparc installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_SOLARIS11_SPARC|/solaris/sparc/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_
 
       #. Stop the Fortishield agent.
 
@@ -52,9 +52,9 @@ Select your Solaris version and follow the steps to upgrade the Fortishield agen
 
       #. Download the latest Solaris 10 installer. Choose one option depending on the host architecture.
 
-         * `Solaris 10 i386 installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_SOLARIS10_i386|/solaris/i386/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_
+         * `Solaris 10 i386 installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_SOLARIS10_i386|/solaris/i386/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_
 
-         * `Solaris 10 sparc installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_SOLARIS10_SPARC|/solaris/sparc/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_
+         * `Solaris 10 sparc installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_SOLARIS10_SPARC|/solaris/sparc/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_
 
       #. Stop the Fortishield agent.
 

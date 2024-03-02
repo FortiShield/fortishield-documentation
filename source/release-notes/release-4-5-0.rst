@@ -16,7 +16,7 @@ This version includes new features or improvements, such as the following:
 Manager
 ^^^^^^^
 
-- `#17954 <https://github.com/fortishield/fortishield/pull/17954>`_ Vulnerability Detector now fetches the NVD feed from `https://feed.fortishield.com`, based on the NVD API 2.0.
+- `#17954 <https://github.com/fortishield/fortishield/pull/17954>`_ Vulnerability Detector now fetches the NVD feed from `https://feed.fortishield.github.io`, based on the NVD API 2.0.
 
    - The ``<update_from_year>`` option has been deprecated.
 

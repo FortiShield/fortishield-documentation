@@ -63,7 +63,7 @@ The module expects 3 parameters:
             "command": "upgrade",
             "parameters": {
                 "agents": [5,6],
-                "wpk_repo": "packages.fortishield.com/wpk/",
+                "wpk_repo": "fortishield.github.io/packages/wpk/",
                 "version": "v4.2.1",
                 "use_http": false,
                 "force_upgrade": false

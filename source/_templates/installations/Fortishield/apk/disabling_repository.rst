@@ -2,6 +2,6 @@
 
 .. code-block:: console
 
-   # sed -i "s|^https://packages.fortishield.com|#https://packages.fortishield.com|g" /etc/apk/repositories
+   # sed -i "s|^https://fortishield.github.io/packages|#https://fortishield.github.io/packages|g" /etc/apk/repositories
 
 .. End of include file

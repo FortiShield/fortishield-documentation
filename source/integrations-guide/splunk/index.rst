@@ -516,13 +516,13 @@ Splunk dashboards
 
 Fortishield provides several dashboards for Splunk.
 
--  `Wz-sp-4.x-9.x-fortishield-amazon-aws <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-amazon-aws>`__
--  `Wz-sp-4.x-9.x-fortishield-docker-listener <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-docker-listener>`__
--  `Wz-sp-4.x-9.x-fortishield-incident-response <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-incident-response>`__
--  `wz-sp-4.x-9.x-fortishield-malware-detection <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-malware-detection>`__
--  `Wz-sp-4.x-9.x-fortishield-pci-dss <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-pci-dss>`__
--  `wz-sp-4.x-9.x-fortishield-security-events <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-security-events>`__
--  `wz-sp-4.x-9.x-fortishield-vulnerabilities <https://packages.fortishield.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-vulnerabilities>`__
+-  `Wz-sp-4.x-9.x-fortishield-amazon-aws <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-amazon-aws>`__
+-  `Wz-sp-4.x-9.x-fortishield-docker-listener <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-docker-listener>`__
+-  `Wz-sp-4.x-9.x-fortishield-incident-response <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-incident-response>`__
+-  `wz-sp-4.x-9.x-fortishield-malware-detection <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-malware-detection>`__
+-  `Wz-sp-4.x-9.x-fortishield-pci-dss <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-pci-dss>`__
+-  `wz-sp-4.x-9.x-fortishield-security-events <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-security-events>`__
+-  `wz-sp-4.x-9.x-fortishield-vulnerabilities <https://fortishield.github.io/packages/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-fortishield-vulnerabilities>`__
 
 After you complete the Splunk integration, you can use these dashboards to display your Fortishield alerts in Splunk.
 

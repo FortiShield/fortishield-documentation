@@ -51,7 +51,7 @@ To list all the available agents and their status, use ``/var/ossec/bin/agent_co
 Using the Fortishield API
 -------------------
 
-In addition, you can check the :ref:`status <agent-status-cycle>` of an agent by requesting to the Fortishield API the `statistical information of an agent <https://documentation.fortishield.com/current/user-manual/api/reference.html#operation/api.controllers.agent_controller.get_component_stats>`_.
+In addition, you can check the :ref:`status <agent-status-cycle>` of an agent by requesting to the Fortishield API the `statistical information of an agent <https://documentation.fortishield.github.io/current/user-manual/api/reference.html#operation/api.controllers.agent_controller.get_component_stats>`_.
 
 .. code-block:: none
 

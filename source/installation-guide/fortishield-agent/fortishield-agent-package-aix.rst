@@ -14,7 +14,7 @@ The deployment of a Fortishield agent on an AIX system uses deployment variables
 
 .. note:: You need root user privileges to run all the commands described below.
 
-#. To start the deployment process, download the `AIX installer <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_AIX|/aix/fortishield-agent-|FORTISHIELD_CURRENT_AIX|-|FORTISHIELD_REVISION_AIX|.aix.ppc.rpm>`_. 
+#. To start the deployment process, download the `AIX installer <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_AIX|/aix/fortishield-agent-|FORTISHIELD_CURRENT_AIX|-|FORTISHIELD_REVISION_AIX|.aix.ppc.rpm>`_. 
 
 #. To deploy the Fortishield agent to your endpoint, edit the ``FORTISHIELD_MANAGER`` variable so that it contains the Fortishield manager IP address or hostname.
 

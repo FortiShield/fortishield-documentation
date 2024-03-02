@@ -19,7 +19,7 @@ Select your package manager and follow the instructions to upgrade the Fortishie
 
          .. code-block:: console
 
-            # rpm --import https://packages.fortishield.com/key/GPG-KEY-FORTISHIELD
+            # rpm --import https://fortishield.github.io/packages/key/GPG-KEY-FORTISHIELD
 
       #. Add the Fortishield repository. 
 
@@ -28,10 +28,10 @@ Select your package manager and follow the instructions to upgrade the Fortishie
             # cat > /etc/yum.repos.d/fortishield.repo << EOF
             [fortishield]
             gpgcheck=1
-            gpgkey=https://packages.fortishield.com/key/GPG-KEY-FORTISHIELD
+            gpgkey=https://fortishield.github.io/packages/key/GPG-KEY-FORTISHIELD
             enabled=1
             name=EL-\$releasever - Fortishield
-            baseurl=https://packages.fortishield.com/4.x/yum/
+            baseurl=https://fortishield.github.io/packages/4.x/yum/
             protect=1
             EOF
 
@@ -59,13 +59,13 @@ Select your package manager and follow the instructions to upgrade the Fortishie
 
          .. code-block:: console
 
-            # curl -s https://packages.fortishield.com/key/GPG-KEY-FORTISHIELD | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/fortishield.gpg --import && chmod 644 /usr/share/keyrings/fortishield.gpg
+            # curl -s https://fortishield.github.io/packages/key/GPG-KEY-FORTISHIELD | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/fortishield.gpg --import && chmod 644 /usr/share/keyrings/fortishield.gpg
 
       #. Add the Fortishield repository.
 
          .. code-block:: console
 
-            # echo "deb [signed-by=/usr/share/keyrings/fortishield.gpg] https://packages.fortishield.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/fortishield.list
+            # echo "deb [signed-by=/usr/share/keyrings/fortishield.gpg] https://fortishield.github.io/packages/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/fortishield.list
 
       #. Upgrade the Fortishield agent to the latest version.
 
@@ -89,8 +89,8 @@ Select your package manager and follow the instructions to upgrade the Fortishie
          .. code-block:: console
 
             # apt-get install gnupg apt-transport-https
-            # curl -s https://packages.fortishield.com/key/GPG-KEY-FORTISHIELD | apt-key add -
-            # echo "deb https://packages.fortishield.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/fortishield.list
+            # curl -s https://fortishield.github.io/packages/key/GPG-KEY-FORTISHIELD | apt-key add -
+            # echo "deb https://fortishield.github.io/packages/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/fortishield.list
 
    .. group-tab:: ZYpp
 
@@ -98,7 +98,7 @@ Select your package manager and follow the instructions to upgrade the Fortishie
 
          .. code-block:: console
 
-            # rpm --import https://packages.fortishield.com/key/GPG-KEY-FORTISHIELD
+            # rpm --import https://fortishield.github.io/packages/key/GPG-KEY-FORTISHIELD
 
       #. Add the Fortishield repository. 
 
@@ -107,10 +107,10 @@ Select your package manager and follow the instructions to upgrade the Fortishie
             # cat > /etc/zypp/repos.d/fortishield.repo <<\EOF
             [fortishield]
             gpgcheck=1
-            gpgkey=https://packages.fortishield.com/key/GPG-KEY-FORTISHIELD
+            gpgkey=https://fortishield.github.io/packages/key/GPG-KEY-FORTISHIELD
             enabled=1
             name=EL-$releasever - Fortishield
-            baseurl=https://packages.fortishield.com/4.x/yum/
+            baseurl=https://fortishield.github.io/packages/4.x/yum/
             protect=1
             EOF
 
@@ -138,13 +138,13 @@ Select your package manager and follow the instructions to upgrade the Fortishie
 
          .. code-block:: console
 
-            # wget -O /etc/apk/keys/alpine-devel@fortishield.com-633d7457.rsa.pub https://packages.fortishield.com/key/alpine-devel%40fortishield.com-633d7457.rsa.pub
+            # wget -O /etc/apk/keys/alpine-devel@fortishield.github.io-633d7457.rsa.pub https://fortishield.github.io/packages/key/alpine-devel%40fortishield.github.io-633d7457.rsa.pub
 
       #. Add the Fortishield repository.
 
          .. code-block:: console
 
-            # echo "https://packages.fortishield.com/4.x/alpine/v3.12/main" >> /etc/apk/repositories
+            # echo "https://fortishield.github.io/packages/4.x/alpine/v3.12/main" >> /etc/apk/repositories
 
       #. Upgrade the Fortishield agent to the latest version.
         
@@ -157,7 +157,7 @@ Select your package manager and follow the instructions to upgrade the Fortishie
 
          .. code-block:: console
 
-            # sed -i "s|^https://packages.fortishield.com|#https://packages.fortishield.com|g" /etc/apk/repositories   
+            # sed -i "s|^https://fortishield.github.io/packages|#https://fortishield.github.io/packages|g" /etc/apk/repositories   
 
 .. note::
    :class: not-long

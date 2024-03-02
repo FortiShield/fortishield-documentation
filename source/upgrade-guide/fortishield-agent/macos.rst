@@ -11,8 +11,8 @@ Follow these steps to upgrade Fortishield agents locally on macOS systems. If yo
 
 .. note:: To perform the agent upgrade, administrator privileges are required.
 
-.. |macOS_intel_64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg>`__
-.. |macOS_arm64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg>`__
+.. |macOS_intel_64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.intel64.pkg>`__
+.. |macOS_arm64| replace:: `fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MAJOR_OSX|/macos/fortishield-agent-|FORTISHIELD_CURRENT_OSX|-|FORTISHIELD_REVISION_OSX|.arm64.pkg>`__
 
 
 #. Download the latest macOS installer:

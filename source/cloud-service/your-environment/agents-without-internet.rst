@@ -51,10 +51,10 @@ To achieve this configuration, follow these steps:
 
 	 stream {
 	   upstream master {
-	     server <CLOUD_ID>.cloud.fortishield.com:1515;
+	     server <CLOUD_ID>.cloud.fortishield.github.io:1515;
 	   }
 	   upstream mycluster {
-	     server <CLOUD_ID>.cloud.fortishield.com:1514;
+	     server <CLOUD_ID>.cloud.fortishield.github.io:1514;
 	     }
 	   server {
 	     listen nginx_ip:1515;
@@ -85,7 +85,7 @@ Using AWS Private Link
 
 In case your agents are located in AWS, you can access our Fortishield Cloud service securely by keeping your network traffic within the AWS network. For that purpose, we use AWS Private Link.
 
-1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.com/>`_.
+1. Log in to the `Fortishield Cloud Console <https://console.cloud.fortishield.github.io/>`_.
    
 2. Go to the **Help** section to contact the Fortishield team requesting your VPC endpoint service name. It has this format:
 

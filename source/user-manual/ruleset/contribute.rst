@@ -11,4 +11,4 @@ If you have created new rules, decoders, or rootchecks and you would like to con
 If you are not familiar with GitHub, you can also share them through our `mailing list <https://groups.google.com/d/forum/fortishield>`_, to which you can subscribe by sending an email to ``fortishield+subscribe@googlegroups.com``. Also, do not hesitate to request new rules or rootchecks that you would like to see running in Fortishield.  Our team will do our best to make it happen.
 
 .. note::
-  In our repository you will find that most of the rules contain one or more groups called pci_dss_X. This is the PCI DSS control related to the rule. We have produced a document that can help you tag each rule with its corresponding PCI requirement: `PCI tagging <http://www.fortishield.com/resources/PCI_Tagging.pdf>`_
+  In our repository you will find that most of the rules contain one or more groups called pci_dss_X. This is the PCI DSS control related to the rule. We have produced a document that can help you tag each rule with its corresponding PCI requirement: `PCI tagging <http://www.fortishield.github.io/resources/PCI_Tagging.pdf>`_

@@ -15,25 +15,25 @@ from settings import version, is_latest_release, release
 
 custom_replacements = {
     # === URLs and base URLs
-    "|CHECKSUMS_URL|" : "https://packages.fortishield.com/4.x/checksums/fortishield/",
+    "|CHECKSUMS_URL|" : "https://fortishield.github.io/packages/4.x/checksums/fortishield/",
     "|APK_CHECKSUMS_I386_URL|" : "alpine/x86",
     "|APK_CHECKSUMS_X86_64_URL|" : "alpine/x86_64",
     "|APK_CHECKSUMS_AARCH64_URL|" : "alpine/aarch64",
     "|APK_CHECKSUMS_ARMV7_URL|" : "alpine/armv7",
     "|APK_CHECKSUMS_ARMHF_URL|" : "alpine/armhf",
     "|APK_CHECKSUMS_PPC_URL|" : "alpine/ppc64le",
-    "|APK_AGENT_I386_URL|" : "https://packages.fortishield.com/4.x/alpine/v3.12/main/x86/fortishield-agent",
-    "|APK_AGENT_X86_64_URL|" : "https://packages.fortishield.com/4.x/alpine/v3.12/main/x86_64/fortishield-agent",
-    "|APK_AGENT_AARCH64_URL|" : "https://packages.fortishield.com/4.x/alpine/v3.12/main/aarch64/fortishield-agent",
-    "|APK_AGENT_ARMV7_URL|" : "https://packages.fortishield.com/4.x/alpine/v3.12/main/armv7/fortishield-agent",
-    "|APK_AGENT_ARMHF_URL|" : "https://packages.fortishield.com/4.x/alpine/v3.12/main/armhf/fortishield-agent",
-    "|APK_AGENT_PPC_URL|" : "https://packages.fortishield.com/4.x/alpine/v3.12/main/ppc64le/fortishield-agent",
-    "|RPM_AGENT_URL|" : "https://packages.fortishield.com/4.x/yum/fortishield-agent",
-    "|RPM_MANAGER_URL|" : "https://packages.fortishield.com/4.x/yum/fortishield-manager",
-    "|DEB_AGENT_URL|" : "https://packages.fortishield.com/4.x/apt/pool/main/w/fortishield-agent/fortishield-agent",
-    "|DEB_MANAGER_URL|" : "https://packages.fortishield.com/4.x/apt/pool/main/w/fortishield-manager/fortishield-manager",
+    "|APK_AGENT_I386_URL|" : "https://fortishield.github.io/packages/4.x/alpine/v3.12/main/x86/fortishield-agent",
+    "|APK_AGENT_X86_64_URL|" : "https://fortishield.github.io/packages/4.x/alpine/v3.12/main/x86_64/fortishield-agent",
+    "|APK_AGENT_AARCH64_URL|" : "https://fortishield.github.io/packages/4.x/alpine/v3.12/main/aarch64/fortishield-agent",
+    "|APK_AGENT_ARMV7_URL|" : "https://fortishield.github.io/packages/4.x/alpine/v3.12/main/armv7/fortishield-agent",
+    "|APK_AGENT_ARMHF_URL|" : "https://fortishield.github.io/packages/4.x/alpine/v3.12/main/armhf/fortishield-agent",
+    "|APK_AGENT_PPC_URL|" : "https://fortishield.github.io/packages/4.x/alpine/v3.12/main/ppc64le/fortishield-agent",
+    "|RPM_AGENT_URL|" : "https://fortishield.github.io/packages/4.x/yum/fortishield-agent",
+    "|RPM_MANAGER_URL|" : "https://fortishield.github.io/packages/4.x/yum/fortishield-manager",
+    "|DEB_AGENT_URL|" : "https://fortishield.github.io/packages/4.x/apt/pool/main/w/fortishield-agent/fortishield-agent",
+    "|DEB_MANAGER_URL|" : "https://fortishield.github.io/packages/4.x/apt/pool/main/w/fortishield-manager/fortishield-manager",
     #
-    "|CTI_URL|" : "https://cti.fortishield.com/api/v1/catalog/contexts/vd_1.0.0/consumers/vd_4.8.0",
+    "|CTI_URL|" : "https://cti.fortishield.github.io/api/v1/catalog/contexts/vd_1.0.0/consumers/vd_4.8.0",
     #
     # === Global and Fortishield version (fortishield agent, manager, indexer, and dashboard)
     "|FORTISHIELD_CURRENT_MAJOR|" : "4.x",

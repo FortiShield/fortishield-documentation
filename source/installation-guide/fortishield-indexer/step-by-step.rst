@@ -32,8 +32,8 @@ Generating the SSL certificates
 
    .. code-block:: console
 
-    # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-certs-tool.sh
-    # curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/config.yml
+    # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-certs-tool.sh
+    # curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/config.yml
 
 #. Edit ``./config.yml`` and replace the node names and IP values with the corresponding names and IP addresses. You need to do this for all Fortishield server, Fortishield indexer, and Fortishield dashboard nodes. Add as many node fields as needed.
 

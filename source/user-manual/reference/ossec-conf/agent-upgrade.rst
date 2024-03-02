@@ -66,7 +66,7 @@ wpk_repository
 Repository where the WPK files will be downloaded.
 
 +--------------------+--------------------------------------------------+
-| **Default value**  | packages.fortishield.com/4.x/wpk/                      |
+| **Default value**  | fortishield.github.io/packages/4.x/wpk/                      |
 +--------------------+--------------------------------------------------+
 | **Allowed values** | Any repository URL that contains the WPK files.  |
 +--------------------+--------------------------------------------------+
@@ -173,7 +173,7 @@ Sample Configuration
 
     <agent-upgrade>
       <chunk_size>16384</chunk_size>
-      <wpk_repository>packages.fortishield.com/4.x/wpk/</wpk_repository>
+      <wpk_repository>fortishield.github.io/packages/4.x/wpk/</wpk_repository>
       <max_threads>16</max_threads>
     </agent-upgrade>
 

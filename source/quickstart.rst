@@ -75,7 +75,7 @@ Installing Fortishield
 
     .. code-block:: console
 
-        $ curl -sO https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh && sudo bash ./fortishield-install.sh -a
+        $ curl -sO https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh && sudo bash ./fortishield-install.sh -a
 
 
     Once the assistant finishes the installation, the output shows the access credentials and a message that confirms that the installation was successful.

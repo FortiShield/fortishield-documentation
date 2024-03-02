@@ -6,7 +6,7 @@
 Uninstalling the Fortishield central components
 =========================================
 
-You can uninstall all the Fortishield central components using the `Fortishield installation assistant <https://packages.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh>`_.
+You can uninstall all the Fortishield central components using the `Fortishield installation assistant <https://fortishield.github.io/packages/|FORTISHIELD_CURRENT_MINOR|/fortishield-install.sh>`_.
 
 Run the assistant with the option ``-u`` or ``--uninstall`` as follows:
 

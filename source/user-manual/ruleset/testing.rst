@@ -156,9 +156,9 @@ Using the Fortishield API
 To use Fortishield logtest with the Fortishield API, you need the two endpoints detailed below.
 
 
-.. |logtest| replace:: `/logtest <https://documentation.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.run_logtest_tool>`__
+.. |logtest| replace:: `/logtest <https://documentation.fortishield.github.io/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.run_logtest_tool>`__
 
-.. |logtest_sessions| replace:: `/logtest/sessions/{token} <https://documentation.fortishield.com/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.end_logtest_session>`__
+.. |logtest_sessions| replace:: `/logtest/sessions/{token} <https://documentation.fortishield.github.io/|FORTISHIELD_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.end_logtest_session>`__
 
 +-------------------------------+-----------------+-----------------------------------------------------------------------+
 | Endpoint                      | Method          | Description                                                           |

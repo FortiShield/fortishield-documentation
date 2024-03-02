@@ -151,7 +151,7 @@ Download the utilities and configure the CDB list
 
    .. code-block:: console
 
-      $ sudo wget https://fortishield.com/resources/iplist-to-cdblist.py -O /tmp/iplist-to-cdblist.py
+      $ sudo wget https://fortishield.github.io/resources/iplist-to-cdblist.py -O /tmp/iplist-to-cdblist.py
 
 #. Convert the ``alienvault_reputation.ipset`` file to a ``.cdb`` format using the previously downloaded script:
 

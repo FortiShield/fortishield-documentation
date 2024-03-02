@@ -4,13 +4,13 @@
 
    .. code-block:: console
 
-      # wget -O /etc/apk/keys/alpine-devel@fortishield.com-633d7457.rsa.pub https://packages.fortishield.com/key/alpine-devel%40fortishield.com-633d7457.rsa.pub
+      # wget -O /etc/apk/keys/alpine-devel@fortishield.github.io-633d7457.rsa.pub https://fortishield.github.io/packages/key/alpine-devel%40fortishield.github.io-633d7457.rsa.pub
 
 #. Add the repository:
 
    .. code-block:: console
 
-      # echo "https://packages.fortishield.com/4.x/alpine/v3.12/main" >> /etc/apk/repositories
+      # echo "https://fortishield.github.io/packages/4.x/alpine/v3.12/main" >> /etc/apk/repositories
 
 #. Update the metadata information:
 

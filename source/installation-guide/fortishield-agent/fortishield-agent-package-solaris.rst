@@ -24,7 +24,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 10
 
-            #. Download the `Fortishield agent for Solaris 10 i386 <https://packages.fortishield.com/4.x/solaris/i386/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_ package.
+            #. Download the `Fortishield agent for Solaris 10 i386 <https://fortishield.github.io/packages/4.x/solaris/i386/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_ package.
 
             #. Install the Fortishield agent.
 
@@ -34,7 +34,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 11
 
-            #. Download the `Fortishield agent for Solaris 11 i386 <https://packages.fortishield.com/4.x/solaris/i386/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_.
+            #. Download the `Fortishield agent for Solaris 11 i386 <https://fortishield.github.io/packages/4.x/solaris/i386/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_.
 
             #. Install the Fortishield agent.
 
@@ -56,7 +56,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 10
 
-            #. Download the `Fortishield agent for Solaris 10 SPARC <https://packages.fortishield.com/4.x/solaris/sparc/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_ package.
+            #. Download the `Fortishield agent for Solaris 10 SPARC <https://fortishield.github.io/packages/4.x/solaris/sparc/10/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_ package.
 
             #. Install the Fortishield agent.
 
@@ -66,7 +66,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 11
 
-            #. Download the `Fortishield agent for Solaris 11 SPARC <https://packages.fortishield.com/4.x/solaris/sparc/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_.
+            #. Download the `Fortishield agent for Solaris 11 SPARC <https://fortishield.github.io/packages/4.x/solaris/sparc/11/fortishield-agent_v|FORTISHIELD_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_.
 
             #. Install the Fortishield agent.
 

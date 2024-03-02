@@ -79,7 +79,7 @@ Yes, the Fortishield Cloud platform is compliant with SOC 2 standards.
 How can I get support?
 ----------------------
 
-Every environment includes support after the first payment. You can contact the Fortishield team anytime through the Help section on your Fortishield Cloud Console. You can also fill out `this form <https://fortishield.com/fortishield-cloud-info/>`_ to get help from the Fortishield team.
+Every environment includes support after the first payment. You can contact the Fortishield team anytime through the Help section on your Fortishield Cloud Console. You can also fill out `this form <https://fortishield.github.io/fortishield-cloud-info/>`_ to get help from the Fortishield team.
 
 Where is Fortishield Cloud hosted?
 ----------------------------

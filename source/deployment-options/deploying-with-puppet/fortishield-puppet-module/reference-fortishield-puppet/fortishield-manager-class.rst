@@ -192,7 +192,7 @@ $ossec_emailnotification
 $ossec_emailto
     Email to address. ``['user1@mycompany.com','user2@mycompany.com']``
 
-  `Default ['recipient@example.fortishield.com']`
+  `Default ['recipient@example.fortishield.github.io']`
 
   `Type List`
 
@@ -201,7 +201,7 @@ $ossec_emailto
 $ossec_smtp_server
   SMTP mail server.
 
-  `Default smtp.example.fortishield.com`
+  `Default smtp.example.fortishield.github.io`
 
   `Type String`
 
@@ -210,7 +210,7 @@ $ossec_smtp_server
 $ossec_emailfrom
   Email from address.
 
-  `Default ossecm@example.fortishield.com`
+  `Default ossecm@example.fortishield.github.io`
 
   `Type String`
 

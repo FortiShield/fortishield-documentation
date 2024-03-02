@@ -1,6 +1,6 @@
 openapi: 3.0.0
 servers:
-  - url: https://api.cloud.fortishield.com/v2
+  - url: https://api.cloud.fortishield.github.io/v2
     description: Fortishield Cloud API
 info:
   title: Fortishield Cloud API

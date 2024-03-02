@@ -49,7 +49,7 @@ Use cases
   		:align: center
   		:width: 80%
 
--  PCI DSS 10.5.1 requires that you retain audit log history for at least 12 months, with at least the most recent three months immediately available for analysis. You can achieve this by enabling Fortishield log archives and configuring `index management policies <https://fortishield.com/blog/fortishield-index-management/>`_. To enable Fortishield log archives, take the following steps: 
+-  PCI DSS 10.5.1 requires that you retain audit log history for at least 12 months, with at least the most recent three months immediately available for analysis. You can achieve this by enabling Fortishield log archives and configuring `index management policies <https://fortishield.github.io/blog/fortishield-index-management/>`_. To enable Fortishield log archives, take the following steps: 
 
 	**Enable archives monitoring in the Fortishield indexer**:
 
