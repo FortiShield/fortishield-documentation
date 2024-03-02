@@ -1,0 +1,101 @@
+{#-
+    fortishield_doc_theme_v3/template-parts/header.html
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    General header to be included within every page of Fortishield Documentation.
+-#}
+
+<header id="header" class="fixed-top">
+  <nav class="d-xl-flex align-items-center justify-content-between"> 
+    <div class="mobile-primary-header navbar navbar-expand-xl d-flex">
+      {% include "template-parts/brand.html" %}
+      {% if pagename != 'index' %}
+      <div class="toggle-buttons d-flex d-xl-none">
+        <button class="navbar-toggler search-toggler" type="button" data-toggle="collapse" data-target="#search-box-wrapper" aria-controls="search-box-wrapper" aria-expanded="false" aria-label="Toggle search bar">
+          <span class="search-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#global-toc" aria-controls="global-toc" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      {% endif %}
+    </div>
+    
+    <div class="mobile-secondary-header version-zone">
+    {% if theme_breadcrumb_root_title == 'Documentation' %}
+      <ul class="navbar-nav ml-auto d-none d-xl-flex flex-row">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown-platform" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Platform<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown-platform">
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/platform/overview/' }}" target="_blank" rel="noreferrer noopener">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/platform/xdr/' }}" target="_blank" rel="noreferrer noopener">XDR</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/platform/siem/' }}" target="_blank" rel="noreferrer noopener">SIEM</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ theme_fortishield_web_url + '/cloud/' }}" target="_blank" rel="noreferrer noopener">Cloud</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown-services">
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/services/professional-support/' }}" target="_blank" rel="noreferrer noopener">Professional support</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/services/consulting-services/' }}" target="_blank" rel="noreferrer noopener">Consulting services</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/services/training-courses/' }}" target="_blank" rel="noreferrer noopener">Training courses</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown-partners" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown-partners">
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/partners/' }}" target="_blank" rel="noreferrer noopener">Become a partner</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/partners/find-a-partner/' }}" target="_blank" rel="noreferrer noopener">Find a partner</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ theme_fortishield_web_url + '/blog/' }}" target="_blank" rel="noreferrer noopener">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown-company" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown-company">
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/our-customers/' }}" target="_blank" rel="noreferrer noopener">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/about-us/' }}" target="_blank" rel="noreferrer noopener">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/our-team/' }}" target="_blank" rel="noreferrer noopener">Our team</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="{{ theme_fortishield_web_url + '/newsroom/' }}" target="_blank" rel="noreferrer noopener">Newsroom</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+        
+      {% if theme_include_version_selector and pagename != 'index' %}
+      {% include "template-parts/version-selector.html" %}
+      {% endif %}
+    {% else %}
+      <div class="d-none d-xl-block">
+        {% include "template-parts/search-box.html" %}
+      </div>
+    {% endif %}
+  </div>
+  </nav>
+</header>

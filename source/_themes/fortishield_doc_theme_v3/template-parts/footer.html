@@ -1,0 +1,91 @@
+{#-
+    fortishield_doc_theme_v3/template-parts/footer.html
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    General footer to be included within every page of Fortishield Documentation.
+-#}
+
+  {% if theme_breadcrumb_root_title == 'Documentation' %}
+  <nav class="website-links row d-xl-none">
+    <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+      <div class="footer-section">
+        <div class="footer-title">Explore</div>
+        <ul>
+          <li><a href="{{ theme_fortishield_web_url + '/platform/overview/' }}" target="_blank" rel="noreferrer noopener">Overview</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/platform/xdr/' }}" target="_blank" rel="noreferrer noopener">XDR</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/platform/siem/' }}" target="_blank" rel="noreferrer noopener">SIEM</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+      <div class="footer-section">
+        <div class="footer-title">Services</div>
+        <ul>
+          <li><a href="{{ theme_fortishield_web_url + '/cloud/' }}" target="_blank" rel="noreferrer noopener">Fortishield Cloud</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/services/professional-support/' }}" target="_blank" rel="noreferrer noopener">Professional support</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/services/consulting-services/' }}" target="_blank" rel="noreferrer noopener">Consulting services</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/services/training-courses/' }}" target="_blank" rel="noreferrer noopener">Training courses</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+      <div class="footer-section">
+        <div class="footer-title">Company</div>
+        <ul>
+          <li><a href="{{ theme_fortishield_web_url + '/about-us/' }}" target="_blank" rel="noreferrer noopener">About us</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/our-customers/' }}" target="_blank" rel="noreferrer noopener">Customers</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/partners/' }}" target="_blank" rel="noreferrer noopener">Partners</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+      <div class="footer-section">
+        <div class="footer-title">Documentation</div>
+        <ul>
+          <li><a href="{{ theme_fortishield_doc_url + '/current/quickstart.html' }}">Quickstart</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/current/getting-started/' }}">Getting started</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/current/installation-guide/' }}">Installation guide</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-xs-6 col-sm-6 col-lg-4">
+      <div class="footer-section">
+        <div class="footer-title">Resources</div>
+        <ul>
+          <li><a href="{{ theme_fortishield_web_url + '/blog/' }}" target="_blank" rel="noreferrer noopener">Blog</a></li>
+          <li><a href="{{ theme_fortishield_web_url + '/community/' }}" target="_blank" rel="noreferrer noopener">Community</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% endif %}
+  <div class="desktop-footer row">
+    <div class="subfooter col-12 col-md-6 col-xl-4">
+      <div class="logo">
+        <a class="logo-link web" href="{{ theme_fortishield_web_url }}" target="_blank" rel="noreferrer noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="28" height="16" viewBox="0 0 28 16" xml:space="preserve">
+            <path d="M16.2491 10.7636L12.7889 0.0132231H10.0484L6.58823 10.7636L3.14187 0H0L5.01038 15.6959H7.57093L11.4187 4.33719L15.2526 15.6959H17.7993L22.8097 0.0132231H19.6817L16.2491 10.7636Z"/>
+            <path d="M25.4118 16C26.8412 16 28 14.8929 28 13.5273C28 12.1616 26.8412 11.0546 25.4118 11.0546C23.9823 11.0546 22.8235 12.1616 22.8235 13.5273C22.8235 14.8929 23.9823 16 25.4118 16Z" fill="#3585F9"/>
+          </svg>
+        </a>
+      </div>
+      <div class="copyright">
+        {{copyright}}
+      </div>
+      <div class="d-inline-block d-xl-none">
+        <a href="{{ theme_fortishield_web_url + '/contact-us/' }}" target="_blank" rel="noreferrer noopener">Contact us</a>
+      </div>
+    </div>
+    {% if theme_breadcrumb_root_title == 'Documentation' %}
+    <ul class="social-links col-12 col-md-6 col-xl-8">
+      <li class="nav-item d-none d-xl-inline-block"><a class="nav-link" href="{{ theme_fortishield_web_url + '/community/' }}" target="_blank" rel="noreferrer noopener">Community</a></li>
+      <li class="nav-item d-none d-xl-inline-block"><a class="nav-link" href="{{ theme_fortishield_web_url + '/contact-us/' }}" target="_blank" rel="noreferrer noopener">Contact us</a></li>
+      <li class="rrss nav-item d-inline-block"><a class="nav-link" title="Fortishield on Twitter" aria-label="Fortishield on Twitter" target="_blank" href="https://twitter.com/fortishield" rel="noreferrer noopener"><svg><use xlink:href="#ico-twitter"></use></svg></a></li>
+      <li class="rrss nav-item d-inline-block"><a class="nav-link" title="Fortishield on LinkedIn" aria-label="Fortishield on LinkedIn" target="_blank" href="https://www.linkedin.com/company/fortishield" rel="noreferrer noopener"><svg><use xlink:href="#ico-linkedin"></use></svg></a></li>
+      <li class="rrss nav-item d-inline-block"><a class="nav-link" title="Fortishield on Reddit" aria-label="Fortishield on Reddit" target="_blank" href="https://www.reddit.com/r/Fortishield/" rel="noreferrer noopener"><svg><use xlink:href="#ico-reddit"></use></svg></a></li>
+      <li class="rrss nav-item d-inline-block"><a class="nav-link" title="Fortishield on Github" aria-label="Fortishield on Github" target="_blank" href="https://github.com/fortishield" rel="noreferrer noopener"><svg><use xlink:href="#ico-github"></use></svg></a></li>
+      <li class="rrss nav-item d-inline-block"><a class="nav-link" title="Join us on Slack" aria-label="Join us on Slack" target="_blank" href="https://fortishield.com/community/join-us-on-slack/" rel="noreferrer noopener"><svg><use xlink:href="#ico-slack"></use></svg></a></li>
+      <li class="rrss nav-item d-inline-block"><a class="nav-link" title="Subscribe to our mailing list" aria-label="Subscribe to our mailing list" target="_blank" href="mailto:fortishield+subscribe@googlegroups.com" rel="noreferrer noopener"><svg><use xlink:href="#ico-mailinglist"></use></svg></a></li>
+    </ul>
+    {% endif %}
+  </div>
