@@ -1,0 +1,166 @@
+
+    
+    
+      
+
+<!DOCTYPE html><html lang="en-US"class="auto-theme">
+  <head>
+    
+    
+    <meta name="robots" content="index" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="author" content="Fortishield">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="color-scheme" content="dark light">
+    <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+<meta content="The Fortishield API is an open source RESTful API that allows for interaction with the Fortishield manager. Learn more about it in this section of our documentation." name="description" />
+<meta property="og:image" content="https://fortishield.github.io/documentation/current/_static/images/fortishield-docs-card.png">
+    <meta property="og:url" content="https://fortishield.github.io/documentation/current/user-manual/api/reference.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Reference - RESTful API · Fortishield documentation">
+    <meta property="og:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Fortishield platform.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@fortishield">
+    <meta name="twitter:creator" content="@fortishield">
+    <meta name="twitter:title" content="Reference - RESTful API · Fortishield documentation">
+    <meta name="twitter:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Fortishield platform.">
+    <meta name="twitter:image" content="https://fortishield.github.io/documentation/current/_static/images/fortishield-docs-card.png">
+    <title>API reference · Fortishield documentation</title>
+<style media="prefers-color-scheme: light">
+      html, body {
+        color: black;
+        background-color: #fff;
+      }
+    </style>  
+    <style media="prefers-color-scheme: dark">
+      html, body {
+        background-color: #2b303a!important;
+      }
+    </style>
+    <script>
+    const prefersDarkScheme=window.matchMedia("(prefers-color-scheme: dark)"),currentTheme=document.documentElement.classList.contains("auto-theme")?"":localStorage.getItem("theme");"dark"==currentTheme||"light"!=currentTheme&&prefersDarkScheme.matches?document.documentElement.classList.toggle("dark-theme"):document.documentElement.classList.toggle("light-theme");
+    </script>
+  <style type="text/css">@font-face{font-family:Manrope;font-style:normal;font-weight:400;font-display:swap;src:url("https://fonts.gstatic.com/s/manrope/v8/xn7gYHE41ni1AdIRggmxSuXd.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Manrope;font-style:normal;font-weight:400;font-display:swap;src:url("https://fonts.gstatic.com/s/manrope/v8/xn7gYHE41ni1AdIRggexSg.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Manrope;font-style:normal;font-weight:500;font-display:swap;src:url("https://fonts.gstatic.com/s/manrope/v8/xn7gYHE41ni1AdIRggmxSuXd.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Manrope;font-style:normal;font-weight:500;font-display:swap;src:url("https://fonts.gstatic.com/s/manrope/v8/xn7gYHE41ni1AdIRggexSg.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Manrope;font-style:normal;font-weight:600;font-display:swap;src:url("https://fonts.gstatic.com/s/manrope/v8/xn7gYHE41ni1AdIRggmxSuXd.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Manrope;font-style:normal;font-weight:600;font-display:swap;src:url("https://fonts.gstatic.com/s/manrope/v8/xn7gYHE41ni1AdIRggexSg.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:"Fira Mono";font-style:normal;font-weight:400;font-display:swap;src:url("https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtgKP7SodY.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:"Fira Mono";font-style:normal;font-weight:400;font-display:swap;src:url("https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtgJv7S.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:"Fira Mono";font-style:normal;font-weight:500;font-display:swap;src:url("https://fonts.gstatic.com/s/firamono/v9/N0bS2SlFPv1weGeLZDto1d3HkPfUWZA.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:"Fira Mono";font-style:normal;font-weight:500;font-display:swap;src:url("https://fonts.gstatic.com/s/firamono/v9/N0bS2SlFPv1weGeLZDto1d3HnvfU.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+    <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Fortishield documentation" href="../../index.html"/>
+    <link rel="up" title="RESTful API" href="index.html"/>
+    <link rel="next" title="Fortishield files backup" href="../files-backup/index.html"/>
+    <link rel="prev" title="Examples" href="examples.html"/>
+    <link rel="stylesheet" href="../../_static/css/min/bootstrap.min.css?ver=1709346303.9792023" type="text/css"><link rel="stylesheet" href="../../_static/css/min/api-reference.min.css?ver=1709346303.9792023" type="text/css"><link rel="mask-icon" href="../../_static/images/favicon.svg?v=1709348302.707839" color="#000000">
+    <link rel="icon" href="../../_static/images/favicon.png?v=1709348302.707839" media="(prefers-color-scheme:no-preference)" sizes="any" type="image/png"/>
+    <link rel="icon" href="../../_static/images/dark-favicon.png?v=1709348302.707839" media="(prefers-color-scheme:dark)" sizes="any" type="image/png"/>
+    <link rel="icon" href="../../_static/images/favicon.png?v=1709348302.707839" media="(prefers-color-scheme:light)" sizes="any" type="image/png"/>
+    <link rel="apple-touch-icon" href="../../_static/images/favicon.svg?v=1709348302.707839"><!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N3CGZND');</script>
+      <!-- End Google Tag Manager -->
+    <link rel="canonical" href="https://fortishield.github.io/documentation/current/user-manual/api/reference.html">
+    </head><body class="api-reference"  data-path="user-manual/api/reference" data-spy="scroll" data-target="#local-toc" data-offset="200"><!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3CGZND"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div class="loading">
+
+    <header>
+        
+
+
+
+      
+      <div class="header-left">
+          <div class="navbar-brand">
+    <a class="logo-link docs d-flex align-items-baseline" href="https://fortishield.github.io" target="_blank" rel="noreferrer noopener">
+      <span class="sr-only">Fortishield</span>
+      <svg height="29" width="138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 580 121.191">
+        <g>
+          <polygon points="93.182,89.822 74.016,27.521 58.884,27.521 39.712,89.822 20.714,27.479 3.307,27.479 31.052,118.326 
+            45.177,118.326 66.45,52.575 87.637,118.326 101.761,118.326 129.507,27.521 112.187,27.521"/>
+          <polygon points="252.707,43.244 299.532,43.244 247.995,115.547 247.995,118.326 324.927,118.326 324.927,102.604 
+            275.995,102.604 327.445,30.381 327.445,27.521 252.707,27.521"/>
+          <path d="M212.985,37.093c-7.786-8.124-18.408-12.399-30.906-12.399c-26.449,0-46.391,20.767-46.391,48.304
+            c0,27.534,19.942,48.298,46.391,48.298c12.469,0,23.091-4.249,30.906-12.318v10.414h17.777V26.604h-17.777V37.093z
+             M183.891,104.566c-17.459,0-30.136-13.276-30.136-31.569c0-18.234,12.677-31.47,30.136-31.47
+            c17.407,0,30.043,13.236,30.043,31.47C213.935,91.29,201.298,104.566,183.891,104.566z"/>
+          <path d="M410.246,78.913c0,16.301-8.972,25.653-24.608,25.653c-15.693,0-24.695-9.352-24.695-25.653v-52.31h-17.783v53.739
+            c0,30.226,22.883,40.952,42.477,40.952c19.554,0,42.385-10.726,42.385-40.952V26.604h-17.777V78.913z"/>
+          <path d="M530.848,58.126c-0.504-3.702-1.459-7.485-2.86-11.352c-1.401-3.867-3.433-7.441-6.095-10.721
+            c-2.663-3.276-6.124-5.925-10.379-7.945c-4.26-2.017-9.534-3.025-15.809-3.025c-8.185,0-15.161,1.766-20.932,5.297
+            c-3.534,2.16-6.558,4.845-9.082,8.044V3.183h-15.722v115.143h17.823V71.073c0-5.381,0.602-9.948,1.806-13.705
+            c1.21-3.754,2.86-6.781,4.961-9.08c2.101-2.298,4.556-3.965,7.357-5.001c2.802-1.039,5.771-1.557,8.915-1.557
+            c4.816,0,8.729,0.981,11.728,2.944c2.999,1.962,5.326,4.538,6.975,7.734c1.656,3.195,2.779,6.657,3.363,10.385
+            c0.59,3.728,0.886,7.355,0.886,10.886v44.648h17.823V67.877C531.606,65.076,531.352,61.825,530.848,58.126z"/>
+        </g>
+        <ellipse transform="matrix(0.3827 -0.9239 0.9239 0.3827 251.1053 587.4084)" fill="#007AFF" cx="565.113" cy="105.801" rx="14.331" ry="14.331"/>
+      </svg>
+      
+
+    </a>
+
+  </div>
+        
+      </div>
+      
+      <div class="header-right">
+        
+
+
+<div id="version-selector" class="btn-group ml-3">
+  <button type="button" class="btn dropdown-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" data-flip="false" aria-expanded="false">
+  <span class="current"></span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-right"></ul>
+</div>
+
+      </div>
+      
+    </header>
+<div class="inner-body">
+      <div id="central-column">
+  
+  
+  <main role="main" data-pagefind-body>
+    <redoc spec-url='https://raw.githubusercontent.com/fortishield/fortishield/master/api/api/spec/spec.yaml' scroll-y-offset="110"></redoc>
+
+  </main>
+</div></div>
+  <footer id="footer-redoc">
+    <div class="powered-by-badge">
+      Powered by
+      <a href="https://github.com/Rebilly/ReDoc" target="_blank" title="Swagger-generated API Reference Documentation">
+        <strong>ReDoc</strong>
+      </a>
+    </div>
+  </footer>
+</div>
+
+
+  <div class="icon-assets"> 
+      <svg height="21" class="social-icon" id="ico-discord" xmlns="http://www.w3.org/2000/svg"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.1 96.4"><path d="M107.7,8.1C99.3,4.2,90.5,1.5,81.5,0c-1.2,2.2-2.4,4.5-3.4,6.8c-9.6-1.5-19.5-1.5-29.1,0 c-1-2.3-2.1-4.6-3.4-6.8c-9.1,1.5-17.9,4.3-26.2,8.1C2.8,32.7-1.7,56.6,0.5,80.2l0,0c9.7,7.2,20.6,12.6,32.2,16.2 c2.6-3.5,4.9-7.2,6.9-11.1c-3.8-1.4-7.4-3.1-10.9-5.2c0.9-0.7,1.8-1.3,2.7-2c20.4,9.6,44,9.6,64.3,0c0.9,0.7,1.8,1.4,2.7,2 c-3.5,2-7.1,3.8-10.9,5.2c2,3.9,4.3,7.6,6.9,11.1c11.6-3.5,22.5-9,32.2-16.1l0,0C129.2,52.8,122.1,29.1,107.7,8.1z M42.5,65.7 C36.2,65.7,31,60,31,53s5-12.7,11.4-12.7S54,46,53.9,53S48.8,65.7,42.5,65.7z M84.7,65.7c-6.3,0-11.4-5.7-11.4-12.7 s5-12.7,11.4-12.7S96.2,46,96.1,53S91.1,65.7,84.7,65.7z"/></svg>
+<svg height="21" class="social-icon" id="ico-github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+<svg height="21" class="social-icon" id="ico-linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+<svg height="21" class="social-icon" id="ico-reddit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"/></svg>
+<svg height="21" class="social-icon" id="ico-slack" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+<svg height="21" class="social-icon" id="ico-twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+<svg height="21" class="social-icon" id="ico-mailinglist" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z"/></svg>
+<svg height="21" class="social-icon" id="ico-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg>
+<svg height="17" width="17" class="social-icon" id="ico-phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17"><path d="M3.86698 7.56209C5.14318 10.0702 7.19928 12.1174 9.70737 13.4025L11.6571 11.4527C11.8964 11.2134 12.2509 11.1337 12.5611 11.24C13.5537 11.5679 14.6261 11.7452 15.725 11.7452C16.2124 11.7452 16.6113 12.144 16.6113 12.6314V15.7245C16.6113 16.2119 16.2124 16.6107 15.725 16.6107C7.40311 16.6107 0.658752 9.86634 0.658752 1.54445C0.658752 1.05702 1.05756 0.658203 1.545 0.658203H4.64688C5.13432 0.658203 5.53313 1.05702 5.53313 1.54445C5.53313 2.65227 5.71038 3.71577 6.03829 4.70837C6.13578 5.01855 6.06488 5.36419 5.81673 5.61234L3.86698 7.56209Z"/></svg>
+      <svg width="12.25" height="14" id="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"/></svg>
+      <svg width="12" height="12" class="theme-common-icon" id="menu-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.19089 3.07202C2.38783 2.94073 2.65391 2.99395 2.7852 3.19089L5.85716 7.79882L8.92911 3.19089C9.06041 2.99395 9.32649 2.94073 9.52343 3.07202C9.72037 3.20332 9.77359 3.4694 9.64229 3.66634L6.21375 8.80916C6.13426 8.92839 6.00045 9 5.85716 9C5.71387 9 5.58005 8.92839 5.50057 8.80916L2.07202 3.66634C1.94073 3.4694 1.99395 3.20332 2.19089 3.07202Z"/></svg>
+    </div>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/js/documentation_options.js"></script>
+    <script>
+      const emptyTocNodes = JSON.parse('["amazon/configuration/index", "containers", "deployment", "docker-monitor/index", "installation-guide/elasticsearch-cluster/index", "installation-guide/fortishield-cluster/index", "installation-guide/upgrading/legacy/index", "installation-guide/packages-list/linux/linux-index", "installation-guide/packages-list/solaris/solaris-index", "user-manual/agents/index", "user-manual/agents/remove-agents/index", "user-manual/agents/listing/index", "user-manual/kibana-app/reference/index", "user-manual/ruleset/ruleset-xml-syntax/index", "installation-guide/distributed-deployment/step-by-step-installation/elasticsearch-cluster/index", "installation-guide/distributed-deployment/step-by-step-installation/fortishield-cluster/index", "user-manual/capabilities/active-response/ar-use-cases/index"]');
+    </script>
+
+<script src="../../_static/js/jquery.js?ver=1709346303.9832025"></script><script src="../../_static/js/min/bootstrap.bundle.min.js?ver=1709346303.9832025"></script><script src="../../_static/js/redoc.standalone.js?ver=1709346303.9912024"></script><script src="../../_static/js/min/redirects.min.js?ver=1709348520.350051"></script><script src="../../_static/js/min/api-reference.min.js?ver=1709346362.3792048"></script>
+  </body>
+</html>
+    
+    
